@@ -10,6 +10,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -45,10 +50,31 @@ nav a:hover {
   transition: 400ms;
 }
 
+.sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 620px;
+}
+
+.text-sobre {
+  width: 400px;
+  margin-left: 10px;
+}
+
+#cartoon {
+  max-width: 500px;
+  margin-right: 10px;
+}
+
+#cartoon:hover {
+  max-width: 550px;
+  transition: 400ms;
+}
+
 footer {
   background-color: #2C2C2C;
   text-align: center;
-  position: absolute;
   bottom: 0;
   width: 100%;
   padding: 20px;
