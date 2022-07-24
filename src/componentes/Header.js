@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import IconGitHub from '../img/icon-GITHUB.png';
 import IconLinkedin from '../img/icon-LINKEDIN.png';
-import Logo from '../img/logo-pronta.png';
+import Logo from '../img/logo-pq.png';
 
 class Header extends React.Component {
   render(){

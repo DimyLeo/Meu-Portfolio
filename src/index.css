@@ -32,7 +32,8 @@ header {
 }
 
 #logo {
-  width: 200px;
+  width: 45px;
+  margin-right: 140px;
 }
 
 .div-icons-redes {
@@ -199,4 +200,64 @@ footer h2{
   color: #7e7e7e;
   font-size: 14px;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 920px) {
+  .div-icons-redes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .sobre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    height: 950px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .div-icons-redes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 3px;
+  }
+
+  .sobre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    height: 950px;
+  }
+
+  #logo {
+    margin-right: 60px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  #cartoon {
+    width: 320px;
+  }
+
+  #cartoon:hover {
+    max-width: 350px;
+    transition: 400ms;
+  }
+
+  #logo {
+    margin-right: 30px;
+  }
+
+  .text-sobre {
+    width: 320px;
+  }
 }
