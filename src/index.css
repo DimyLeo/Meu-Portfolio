@@ -134,6 +134,29 @@ nav a:hover {
   transition: 400ms;
 }
 
+.label-projetos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.links-projetos {
+  background-color: #626262;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 2px 12px;
+  margin-left: 10px;
+}
+
+.links-projetos:hover {
+  background-color: #FFB300;
+  border-radius: 5px;
+  transition: 400ms;
+}
+
 .div-page404 {
   background-color: #dcdcdc;
   color: #2C2C2C;
