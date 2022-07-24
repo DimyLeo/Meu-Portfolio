@@ -72,6 +72,28 @@ nav a:hover {
   transition: 400ms;
 }
 
+.div-habilidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 620px;
+}
+
+.icons-habilidades {
+  width: 150px;
+  margin: 5px;
+}
+
+.div-icons-habilidades {
+  margin-right: 10px;
+  width: 500px;
+}
+
+.div-text-habilidades {
+  width: 400px;
+  margin-left: 10px;
+}
+
 footer {
   background-color: #2C2C2C;
   text-align: center;
