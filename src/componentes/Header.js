@@ -10,10 +10,10 @@ class Header extends React.Component {
       <header>
         <a href="https://dimyleo.github.io/"><img id="logo" src={Logo} alt="Logo"/></a>
           <nav>
-            <Link to="/" > Sobre-min </Link>
-            <Link to="/habilidades" > Habilidades </Link>
-            <Link to="/projetos" > Projetos </Link>
-            <a href="#contato">Contato</a>
+              <Link to="/" > Sobre-min </Link>
+              <Link to="/habilidades" > Habilidades </Link>
+              <Link to="/projetos" > Projetos </Link>
+              <a href="#contato">Contato</a>
           </nav>
           <div>
             <a href="https://github.com/DimyLeo"><img className="icons-redes" src={IconGitHub} alt="Icon GitHub"/></a>
