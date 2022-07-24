@@ -6,7 +6,7 @@ class Footer extends React.Component {
     return(
       <footer>
         <nav>
-          <Link to="/" > Sobre-min </Link>
+          <Link to="/Meu-Portfolio" > Sobre-min </Link>
           <Link to="/habilidades" > Habilidades </Link>
           <Link to="/projetos" > Projetos </Link>
           <a href="#contato">Contato</a>

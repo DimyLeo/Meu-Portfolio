@@ -8,14 +8,14 @@ class Header extends React.Component {
   render(){
     return(
       <header>
-        <a href="https://dimyleo.github.io/"><img id="logo" src={Logo} alt="Logo"/></a>
+        <a href="https://dimyleo.github.io/Meu-Portfolio"><img id="logo" src={Logo} alt="Logo"/></a>
           <nav>
-              <Link to="/" > Sobre-min </Link>
+              <Link to="/Meu-Portfolio" > Sobre-min </Link>
               <Link to="/habilidades" > Habilidades </Link>
               <Link to="/projetos" > Projetos </Link>
               <a href="#contato">Contato</a>
           </nav>
-          <div>
+          <div className="div-icons-redes">
             <a href="https://github.com/DimyLeo"><img className="icons-redes" src={IconGitHub} alt="Icon GitHub"/></a>
             <a href="https://www.linkedin.com/in/leo-cavalcante-701713235/"><img className="icons-redes" src={IconLinkedin} alt="Icon Linkedin"/></a>
           </div>
