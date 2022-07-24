@@ -35,8 +35,18 @@ header {
   width: 200px;
 }
 
+.div-icons-redes {
+  margin-left: 94px;
+}
+
 .icons-redes {
   width:50px;
+}
+
+.icons-redes:hover {
+  background-color: #FFB300;
+  border-radius: 50%;
+  transition: 400ms;
 }
 
 nav a {
@@ -92,6 +102,58 @@ nav a:hover {
 .div-text-habilidades {
   width: 400px;
   margin-left: 10px;
+}
+
+.div-projetos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-text-projetos {
+  width: 650px;
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+
+.div-img-projetos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projetos {
+  width: 650px;
+  margin: 20px;
+}
+
+.projetos:hover {
+  width: 700px;
+  transition: 400ms;
+}
+
+.div-page404 {
+  background-color: #dcdcdc;
+  color: #2C2C2C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 620px;
+}
+
+.div-page404 h2 {
+  font-size: 60px;
+}
+
+.div-page404 h3 {
+  font-size: 30px;
+}
+
+.div-page404 p, h2, h3 {
+  margin: 5px;
 }
 
 footer {
