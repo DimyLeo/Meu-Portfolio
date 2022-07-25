@@ -242,6 +242,7 @@ footer h2{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
   }
 
   nav a {
@@ -326,5 +327,13 @@ footer h2{
 
   .titulo-projetos {
     text-align: center;
+  }
+
+  .div-icons-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 28px;
   }
 }
