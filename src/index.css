@@ -217,7 +217,7 @@ footer h2{
   }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 690px) {
   .div-icons-redes {
     display: flex;
     justify-content: center;
@@ -241,6 +241,24 @@ footer h2{
     justify-content: center;
     flex-direction: column;
   }
+
+  .div-habilidades {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .div-icons-habilidades {
+    margin-top: 20px;
+  }
+
+  .div-text-projetos {
+    width: 400px;
+  }
+
+  .projetos {
+    width: 400px;
+  }
 }
 
 @media only screen and (max-width: 530px) {
@@ -259,5 +277,28 @@ footer h2{
 
   .text-sobre {
     width: 320px;
+  }
+
+  .div-text-habilidades {
+    width: 300px;
+  }
+
+  .div-icons-habilidades {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  .icons-habilidades {
+    width: 70px;
+  }
+
+  .div-text-projetos {
+    width: 300px;
+  }
+
+  .projetos {
+    width: 300px;
   }
 }
