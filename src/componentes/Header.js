@@ -16,8 +16,8 @@ class Header extends React.Component {
               <a href="#contato">Contato</a>
           </nav>
           <div className="div-icons-redes">
-            <a href="https://github.com/DimyLeo"><img className="icons-redes" src={IconGitHub} alt="Icon GitHub"/></a>
-            <a href="https://www.linkedin.com/in/leo-cavalcante-701713235/"><img className="icons-redes" src={IconLinkedin} alt="Icon Linkedin"/></a>
+            <a href="https://github.com/DimyLeo" target="_blank" rel="noreferrer"><img className="icons-redes" src={IconGitHub} alt="Icon GitHub"/></a>
+            <a href="https://www.linkedin.com/in/leo-cavalcante-701713235/" target="_blank" rel="noreferrer"><img className="icons-redes" src={IconLinkedin} alt="Icon Linkedin"/></a>
           </div>
       </header>
     )
