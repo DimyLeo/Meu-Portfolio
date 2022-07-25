@@ -1,11 +1,10 @@
 import React from "react";
-import Cartoon from "../img/cartoon.png";
 
 class Sobre extends React.Component {
   render(){
     return(
       <div className="sobre">
-        <img id="cartoon" src={Cartoon} alt="Cartoon Meu"/>
+        <img id="cartoon" src="https://images2.imgbox.com/7a/03/Trr1aOFg_o.png" alt="Cartoon Meu"/>
         <div className="text-sobre">
           <h1>Olá, me chamo Leonardo Cavalcante Primo</h1>
             <h2>Sobre min:</h2>

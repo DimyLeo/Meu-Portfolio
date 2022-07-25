@@ -1,7 +1,4 @@
 import React from "react";
-import Projeto from "../img/projeto-vazio.png";
-import ProjetoTrybewarts from "../img/TrybeWarts.jpg";
-import ProjetoTryunfo from "../img/Tryunfo.jpg";
 
 class Projetos extends React.Component {
   render(){
@@ -18,21 +15,21 @@ class Projetos extends React.Component {
           <p className="p-projetos">Link do Site:
             <a className="links-projetos" href="https://dimyleo.github.io/Projeto-Trybewarts-Responsivo/" target="_blank" rel="noreferrer">Abrir</a>
           </p>
-          <img className="projetos" src={ProjetoTrybewarts} alt="Projeto Trybewarts Responsivo"/>
+          <img className="projetos" src="https://images2.imgbox.com/dc/26/8t87YSqG_o.jpg" alt="Projeto Trybewarts Responsivo"/>
 
           <h2 className="titulo-projetos">Projeto Tryunfo</h2>
           <p className="descrição-projetos">Esse projeto é um site onde você pode criar cards personalizados, clique no link abaixo para testar.</p>
           <p className="p-projetos">Link do Site:
             <a className="links-projetos" href="https://dimyleo.github.io/Projeto-Tryunfo-Cards-Personalizaveis/" target="_blank" rel="noreferrer">Abrir</a>
           </p>
-          <img className="projetos" src={ProjetoTryunfo} alt="Projeto Tryunfo"/>
+          <img className="projetos" src="https://images2.imgbox.com/88/d5/NsJGMAK8_o.jpg" alt="Projeto Tryunfo"/>
 
           <h2 className="titulo-projetos">Projeto</h2>
           <p className="descrição-projetos">Projeto Futuro...</p>
           <p className="p-projetos">Link do Site:
             <a className="links-projetos" href="d" target="_blank" rel="noreferrer">Abrir</a>
           </p>
-          <img className="projetos" src={Projeto} alt="Projeto"/>
+          <img className="projetos" src="https://images2.imgbox.com/6e/33/jZElQvv5_o.png" alt="Projeto"/>
         </div>
 
       </div>
