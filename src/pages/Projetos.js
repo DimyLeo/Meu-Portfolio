@@ -24,6 +24,13 @@ class Projetos extends React.Component {
           </p>
           <img className="projetos" src="https://images2.imgbox.com/88/d5/NsJGMAK8_o.jpg" alt="Projeto Tryunfo"/>
 
+          <h2 className="titulo-projetos">Projeto RTL no Pokedex</h2>
+          <p className="descrição-projetos">Esse projeto é um site onde você pode visualizar as Pokedex e tem o projetos com tests em React Testing Library, clique no link abaixo para testar.</p>
+          <p className="p-projetos">Link do Site:
+            <a className="links-projetos" href="https://dimyleo.github.io/Projeto-RTL-com-Pokedex/" target="_blank" rel="noreferrer">Abrir</a>
+          </p>
+          <img className="projetos" src="https://images2.imgbox.com/5d/fc/nzGKCbC9_o.jpg" alt="Projeto"/>
+
           <h2 className="titulo-projetos">Projeto</h2>
           <p className="descrição-projetos">Projeto Futuro...</p>
           <p className="p-projetos">Link do Site:
