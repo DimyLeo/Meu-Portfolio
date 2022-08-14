@@ -32,7 +32,7 @@ class Projetos extends React.Component {
           <img className="projetos" src="https://images2.imgbox.com/5d/fc/nzGKCbC9_o.jpg" alt="Projeto"/>
 
           <h2 className="titulo-projetos">Projeto Trivia</h2>
-          <p className="descrição-projetos">Esse projeto é um site onde você pode jogar Trivia um jogo de perguntas e respostas, clique no link abaixo para testar.</p>
+          <p className="descrição-projetos">Esse é um projeto em grupo onde foi feito um site onde você pode jogar Trivia um jogo de perguntas e respostas, clique no link abaixo para testar.</p>
           <p className="p-projetos">Link do Site:
             <a className="links-projetos" href="https://dimyleo.github.io/Projeto-Trivia/" target="_blank" rel="noreferrer">Abrir</a>
           </p>
