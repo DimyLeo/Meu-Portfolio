@@ -4,6 +4,7 @@ import './App.css';
 import Footer from './componentes/Footer';
 import Header from './componentes/Header';
 import NotFound from "./componentes/NotFound";
+import Contato from "./pages/Contato";
 import Habilidades from "./pages/Habilidades";
 import Projetos from "./pages/Projetos";
 import Sobre from "./pages/Sobre";
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/" component={Sobre} />
           <Route path="/habilidades" component={Habilidades} />
           <Route path="/projetos" component={Projetos} />
+          <Route patch="/contato" component={Contato}/>
           <Route patch="" component={NotFound}/>
         </Switch>
       <Footer />

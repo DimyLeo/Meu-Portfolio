@@ -51,22 +51,6 @@ header {
   align-items: center;
 }
 
-.div-icons-redes a {
-  background-color: #2c2c2c;
-  margin: 10px;
-  padding: 1px 70px;
-  border-radius: 10px;
-}
-
-.icons-redes {
-  width:50px;
-}
-
-.div-icons-redes a:hover {
-  background-color: #FFB300;
-  transition: 400ms;
-}
-
 .menuOpen {
   display: block;
   position: absolute;
@@ -320,6 +304,89 @@ nav a:hover {
   text-align: center;
 }
 
+.div-contato {
+  height: 100%;
+  text-align: center;
+}
+
+.head-contato {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.button-copy {
+  background-color: #2C2C2C;
+  color: white;
+  border: none;
+  padding: 15px 90px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.button-copy:hover {
+  background-color: #FFB300;
+  transition: 400ms;
+  cursor: pointer;
+}
+
+.email-copy {
+  padding: 15px 90px;
+}
+
+.icons-react {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+.form-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.form-email input {
+  padding: 10px 33px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.form-email textarea {
+  height: 90px;
+  padding: 5px 38px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.submit-msg {
+  background-color: rgb(69, 69, 176);
+  color: white;
+  padding: 10px 36px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+.limpar-msg {
+  background-color: rgb(162, 54, 54);
+  color: white;
+  padding: 10px 36px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
 .div-page404 {
   background-color: #dcdcdc;
   color: #2C2C2C;
@@ -400,6 +467,27 @@ footer h2{
   
   .menuClose {
     display: none;
+  }
+
+  .div-contato .div-icons-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sobre .div-icons-redes {
+    margin-right: 27px;
+  }
+
+  .sobre .div-icons-redes .button-copy {
+    padding: 15px 104px;
+  }
+
+  .button-copy {
+    padding: 18px 130px;
+    margin-bottom: 10px;
+    margin-left: 10px;
   }
 }
 
@@ -540,12 +628,14 @@ footer h2{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 22px;
   }
 
-  .div-icons-redes a {
-    width: 315px;
-    text-align: center;
+  .sobre .div-icons-redes {
+    margin-right: 27px;
+  }
+
+  .sobre .div-icons-redes .button-copy {
+    padding: 15px 140px;
   }
 
   .comentario {
@@ -555,5 +645,10 @@ footer h2{
 
   .comentario h2 {
     margin-top: 60px;
+  }
+
+  .button-copy {
+    padding: 17px 130px;
+    margin-bottom: 10px;
   }
 }
