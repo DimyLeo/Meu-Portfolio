@@ -14,7 +14,7 @@ function Projetos() {
             <p className="descrição-projetos">Esse projeto é um site de um formulario escolar responsivo e validado, clique no link abaixo para testar.</p>
             <p className="p-projetos">Clique sobre a imagem para abrir site ⇩</p>
             <a href="https://dimyleo.github.io/Projeto-Trybewarts-Responsivo/" target="_blank" className="comentario" rel="noreferrer"><h2>Clique para abrir o site</h2></a>
-              <img className="projetos" src="https://images2.imgbox.com/dc/26/8t87YSqG_o.jpg" alt="Projeto Trybewarts Responsivo"/>
+              <img className="projetos" src="https://images2.imgbox.com/24/5a/zpgTgHEP_o.jpg" alt="Projeto Trybewarts Responsivo"/>
           </div>
 
           <div className="container-project">
@@ -22,7 +22,7 @@ function Projetos() {
             <p className="descrição-projetos">Esse projeto é um site onde você pode criar cards personalizados, clique no link abaixo para testar.</p>
             <p className="p-projetos">Clique sobre a imagem para abrir site ⇩</p>
             <a href="https://dimyleo.github.io/Projeto-Tryunfo-Cards-Personalizaveis/" target="_blank" className="comentario" rel="noreferrer"><h2>Clique para abrir o site</h2></a>
-            <img className="projetos" src="https://images2.imgbox.com/88/d5/NsJGMAK8_o.jpg" alt="Projeto Tryunfo"/>
+            <img className="projetos" src="https://images2.imgbox.com/7a/32/XE9SfU0d_o.jpg" alt="Projeto Tryunfo"/>
           </div>
 
           <div className="container-project">
@@ -38,7 +38,7 @@ function Projetos() {
             <p className="descrição-projetos">Esse é um projeto em grupo onde foi feito um site onde você pode jogar Trivia um jogo de perguntas e respostas, clique no link abaixo para testar.</p>
             <p className="p-projetos">Clique sobre a imagem para abrir site ⇩</p>
             <a href="https://dimyleo.github.io/Projeto-Trivia/" target="_blank" className="comentario" rel="noreferrer"><h2>Clique para abrir o site</h2></a>
-            <img className="projetos" src="https://images2.imgbox.com/05/88/mozo6oAb_o.jpg" alt="Projeto"/>
+            <img className="projetos" src="https://images2.imgbox.com/63/9a/jUSThz0Y_o.jpg" alt="Projeto"/>
           </div>
 
           <div className="container-project">
@@ -46,7 +46,7 @@ function Projetos() {
             <p className="descrição-projetos">Esse é o um Projeto em grupo feito em React com ContextAPI, avaliando a criação de um app de Receitas que instrui e ensina receitas, é tambem avaliado as habilidades de trabalhar em grupo.</p>
             <p className="p-projetos">Clique sobre a imagem para abrir site ⇩</p>
             <a href="https://dimyleo.github.io/Projeto-App-de-Receitas/" target="_blank" className="comentario-celular" rel="noreferrer"><h2>Clique para abrir o site</h2></a>
-            <img className="projetos" id="app-receitas" src="https://images2.imgbox.com/f0/fb/twRYUJdG_o.jpg" alt="Projeto"/>
+            <img className="projetos" id="app-receitas" src="https://images2.imgbox.com/60/4d/riUtMw24_o.jpg" alt="Projeto"/>
           </div>
 
           <div className="container-project">

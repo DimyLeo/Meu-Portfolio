@@ -261,7 +261,7 @@ nav a:hover {
   margin-left: 20px;
   z-index: 1;
   width: 650px;
-  height: 305px;
+  height: 340px;
   opacity: 0;
 }
 
@@ -415,7 +415,7 @@ footer h2{
     display: flex;
     justify-content: center;
     flex-direction: column-reverse;
-    height: 180vh;
+    height: 160vh;
   }
 
   #logo {
@@ -467,6 +467,15 @@ footer h2{
   .div-logo p {
     display: none;
   }
+
+  .comentario {
+    width: 400px;
+    height: 209px;
+  }
+
+  .comentario h2 {
+    margin-top: 85px;
+  }
 }
 
 @media only screen and (max-width: 530px) {
@@ -485,6 +494,10 @@ footer h2{
 
   .text-sobre {
     width: 320px;
+  }
+
+  .div-habilidades {
+    height: 90vh;
   }
 
   .div-text-habilidades {
@@ -533,5 +546,14 @@ footer h2{
   .div-icons-redes a {
     width: 315px;
     text-align: center;
+  }
+
+  .comentario {
+    width: 300px;
+    height: 157px;
+  }
+
+  .comentario h2 {
+    margin-top: 60px;
   }
 }
