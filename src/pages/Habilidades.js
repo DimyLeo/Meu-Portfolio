@@ -1,7 +1,5 @@
-import React from "react";
 
-class Habilidades extends React.Component {
-  render(){
+function Habilidades() {
     return(
       <div className="div-habilidades">
         <div className="div-text-habilidades">
@@ -17,7 +15,6 @@ class Habilidades extends React.Component {
         </div>
       </div>
     )
-  }
 }
 
 export default Habilidades;

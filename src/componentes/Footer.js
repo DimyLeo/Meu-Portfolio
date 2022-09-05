@@ -1,12 +1,10 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
-class Footer extends React.Component {
-  render(){
+function Footer() {
     return(
       <footer>
         <nav>
-          <Link to="/Meu-Portfolio" > Sobre-min </Link>
+          <Link to="/" > Sobre-min </Link>
           <Link to="/habilidades" > Habilidades </Link>
           <Link to="/projetos" > Projetos </Link>
           <a href="#contato">Contato</a>
@@ -19,7 +17,6 @@ class Footer extends React.Component {
         <p id="copy">© Copyright DimyLeo - 2022</p>
       </footer>
     )
-  }
 }
 
 export default Footer;
