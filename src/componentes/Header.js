@@ -1,24 +1,48 @@
-import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
-class Header extends React.Component {
-  render(){
+function Header () {
+  const [active, setMode] = useState(false);
+  const ToggleMode = () => {
+    setMode(!active)
+  }
+
     return(
       <header>
-        <a href="https://dimyleo.github.io/Meu-Portfolio"><img id="logo" src="https://images2.imgbox.com/ee/49/Hi1SGH3A_o.png" alt="Logo"/></a>
-          <nav>
-              <Link to="/Meu-Portfolio" > Sobre-min </Link>
-              <Link to="/habilidades" > Habilidades </Link>
-              <Link to="/projetos" > Projetos </Link>
-              <a href="#contato">Contato</a>
-          </nav>
-          <div className="div-icons-redes">
-            <a href="https://github.com/DimyLeo" target="_blank" rel="noreferrer"><img className="icons-redes" src="https://images2.imgbox.com/2a/6e/LTwpVSQx_o.png" alt="Icon GitHub"/></a>
-            <a href="https://www.linkedin.com/in/leo-cavalcante-701713235/" target="_blank" rel="noreferrer"><img className="icons-redes" src="https://images2.imgbox.com/9c/32/2RzAcNdo_o.png" alt="Icon Linkedin"/></a>
+        <div className="div-logo">
+          <a href="https://dimyleo.github.io/Meu-Portfolio"><img id="logo" src="https://images2.imgbox.com/ee/49/Hi1SGH3A_o.png" alt="Logo"/></a>
+          <h3>LEO</h3><p>CAVALCANTE</p>
+        </div>
+          <div className="links-and-dark-mode"> 
+
+            <div onClick={ToggleMode}>
+              <img src={active ? 'https://images2.imgbox.com/ac/69/YihMkIjJ_o.png' : "https://images2.imgbox.com/4b/75/ljggGs4T_o.png"} alt="ham-icon" className="hamburguer hamburguerIcon" />
+            </div>
+
+            <div className={active ? 'menu menuOpen' : 'menu menuClose'}>
+              <nav className="list">
+                <div className="listItems">
+                  <Link to="/" > Sobre-min </Link>
+                  <Link to="/habilidades" > Habilidades </Link>
+                  <Link to="/projetos" > Projetos </Link>
+                  <a href="#contato">Contato</a>
+                </div>
+              </nav>
+            </div>
+
+            <span className="line" />
+            <div className="div-dark-light">
+              <label className="switch" htmlFor="dark-light">
+                <span className="switch-text">Dark/Light</span>
+                <div className="switch-wrapper">
+                  <input id="dark-light" type='checkbox' name="dark-light" />
+                  <span className="switch-button" />
+                </div>
+              </label>
+            </div>
           </div>
       </header>
     )
-  }
 }
 
 export default Header;
