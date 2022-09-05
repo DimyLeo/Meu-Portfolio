@@ -25,7 +25,7 @@ function Header () {
                   <Link to="/" > Sobre-min </Link>
                   <Link to="/habilidades" > Habilidades </Link>
                   <Link to="/projetos" > Projetos </Link>
-                  <a href="#contato">Contato</a>
+                  <Link to="/contato">Contato</Link>
                 </div>
               </nav>
             </div>
