@@ -1,8 +1,12 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import MyContext from "../context/MyContext";
 
 function Footer() {
+  const {theme} = useContext(MyContext);
+
     return(
-      <footer>
+      <footer className={theme ? 'dark-footer' : 'light-header-footer'}>
         <nav>
           <Link to="/" > Sobre-min </Link>
           <Link to="/habilidades" > Habilidades </Link>

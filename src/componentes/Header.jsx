@@ -1,14 +1,22 @@
-import { useState } from "react";
+import { useContext, useState } from 'react';
 import { Link } from "react-router-dom";
+import MyContext from "../context/MyContext";
 
 function Header () {
   const [active, setMode] = useState(false);
+  const {theme, setTheme} = useContext(MyContext);
+
   const ToggleMode = () => {
     setMode(!active)
   }
 
+  const handleChange = () => {
+    setTheme(!theme)
+    console.log(theme)
+  }
+
     return(
-      <header>
+      <header className={theme ? 'dark-header' : 'light-header-footer'}>
         <div className="div-logo">
           <a href="https://dimyleo.github.io/Meu-Portfolio"><img id="logo" src="https://images2.imgbox.com/ee/49/Hi1SGH3A_o.png" alt="Logo"/></a>
           <h3>LEO</h3><p>CAVALCANTE</p>
@@ -35,7 +43,7 @@ function Header () {
               <label className="switch" htmlFor="dark-light">
                 <span className="switch-text">Dark/Light</span>
                 <div className="switch-wrapper">
-                  <input id="dark-light" type='checkbox' name="dark-light" />
+                  <input onChange={handleChange} id="dark-light" type='checkbox' name="dark-light" value={theme} />
                   <span className="switch-button" />
                 </div>
               </label>
