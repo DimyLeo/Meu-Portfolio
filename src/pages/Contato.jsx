@@ -24,16 +24,16 @@ function Contato() {
 
         <form className="form-email" action="https://formsubmit.co/6e69740e8f8692ba27cb868e0aba4ff6" method="POST">
           <h2>Me envie uma mensagem!</h2>
-          <label htmlFor="name">
-            <input type='text' name="name" className="name-email" placeholder="Digite seu Nome" required />
+          <label htmlFor="Nome">
+            <input type='text' name="Nome" className="name-email" placeholder="Digite seu Nome" required />
           </label>
 
-          <label htmlFor="email">
-            <input type='text' name="email" className="email-user" placeholder="Digite seu Email" required />
+          <label htmlFor="Email">
+            <input type='text' name="Email" className="email-user" placeholder="Digite seu Email" required />
           </label>
 
-          <label htmlFor="msg">
-            <textarea type='text' className="msg-user" placeholder="Digite sua mensagem" />
+          <label htmlFor="Mensagem">
+            <textarea type='text' name="Mensagem" className="msg-user" placeholder="Digite sua mensagem" required />
           </label>
 
           <div className="btns-email">

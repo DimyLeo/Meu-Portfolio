@@ -10,6 +10,20 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.light {
+  background-color: #dcdcdc;
+  color: #1D1D1D;
+}
+
+.light-header-footer {
+  color: white;
+}
+
+.dark {
+  background-color: #1D1D1D;
+  color: white;
+}
+
 h1 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 50px;
