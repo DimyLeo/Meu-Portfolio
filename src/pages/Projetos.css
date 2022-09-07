@@ -1,0 +1,87 @@
+.div-projetos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-text-projetos {
+  width: 650px;
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+
+.div-img-projetos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-project {
+  text-align: center;
+}
+
+.container-project a {
+  color: white;
+  text-decoration: none;
+}
+
+.titulo-projetos {
+  margin-top: 50px;
+}
+
+.descrição-projetos {
+  margin: 20px;
+  width: 600px;
+  text-align: center;
+}
+
+#app-receitas {
+  width: 300px;
+}
+
+.comentario {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  z-index: 1;
+  width: 650px;
+  height: 340px;
+  opacity: 0;
+}
+
+.comentario h2 {
+  margin-top: 125px;
+}
+
+.comentario:hover {
+  background-color: #363636;
+  opacity: 0.8;
+  transition: 400ms;
+}
+
+.comentario-celular {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  z-index: 1;
+  width: 300px;
+  height: 535px;
+  opacity: 0;
+}
+
+.comentario-celular h2 {
+  margin-top: 125px;
+}
+
+.comentario-celular:hover {
+  background-color: #363636;
+  opacity: 0.8;
+  transition: 400ms;
+}
+
+.projetos {
+  width: 650px;
+  margin: 20px;
+}

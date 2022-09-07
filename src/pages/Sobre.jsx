@@ -1,4 +1,5 @@
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import './Sobre.css';
 
 function Sobre() {
     return(

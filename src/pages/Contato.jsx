@@ -1,6 +1,7 @@
 import copy from "copy-to-clipboard";
 import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import { MdAttachEmail } from 'react-icons/md';
+import './Contato.css';
 
 function Contato() {
 

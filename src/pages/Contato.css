@@ -1,0 +1,60 @@
+.div-contato {
+  height: 100%;
+  text-align: center;
+}
+
+.head-contato {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.email-copy {
+  padding: 15px 90px;
+}
+
+.form-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.form-email input {
+  padding: 10px 33px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.form-email textarea {
+  height: 90px;
+  padding: 5px 38px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.submit-msg {
+  background-color: rgb(69, 69, 176);
+  color: white;
+  padding: 10px 36px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+.limpar-msg {
+  background-color: rgb(162, 54, 54);
+  color: white;
+  padding: 10px 36px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 5px;
+  cursor: pointer;
+}

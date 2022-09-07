@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { Route, Switch } from "react-router-dom";
-import './App.css';
 import Footer from './componentes/Footer';
 import Header from './componentes/Header';
 import NotFound from "./componentes/NotFound";
@@ -20,8 +19,8 @@ function App() {
           <Route exact path="/" component={Sobre} />
           <Route path="/habilidades" component={Habilidades} />
           <Route path="/projetos" component={Projetos} />
-          <Route patch="/contato" component={Contato}/>
-          <Route patch="" component={NotFound}/>
+          <Route path="/contato" component={Contato}/>
+          <Route path="/*" component={NotFound}/>
         </Switch>
       <Footer />
     </div>
