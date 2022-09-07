@@ -159,7 +159,8 @@ nav a:hover {
   justify-content: space-between;
   align-items: center;
   border-radius: 40px;
-  background-color: #475569;
+  /* background-color: #475569; */
+  background-image: url(https://images2.imgbox.com/22/9f/QiF8EKTT_o.jpg);
 }
 
 .switch-wrapper input {
@@ -181,7 +182,8 @@ nav a:hover {
 }
 
 .switch-wrapper input:checked + .switch-button {
-  background-color: #b8b8b8;
+  /* background-color: #b8b8b8; */
+  background-image: url(https://images2.imgbox.com/02/08/tehUFuPE_o.jpg);
 }
 
 .switch-wrapper input:checked + .switch-button::before {
