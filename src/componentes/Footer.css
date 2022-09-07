@@ -1,0 +1,39 @@
+footer {
+  background-color: #2C2C2C;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px -3px 10px black;
+}
+
+footer h2{
+  margin-top: 20px;
+}
+
+#copy {
+  color: #7e7e7e;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+
+#copy-light {
+  color: #393939;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.light-header-footer {
+  background-color: #939393;
+  color: #1D1D1D;
+  box-shadow: 1px 3px 10px #696969;
+}
+
+.links-light {
+  color: #1D1D1D;
+}

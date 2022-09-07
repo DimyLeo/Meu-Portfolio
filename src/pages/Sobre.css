@@ -1,0 +1,49 @@
+.sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+#cartoon {
+  max-width: 500px;
+  margin-right: 10px;
+}
+
+#cartoon:hover {
+  max-width: 550px;
+  transition: 400ms;
+}
+
+.text-sobre {
+  width: 400px;
+  margin-left: 10px;
+}
+
+.div-icons-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-copy {
+  background-color: #2C2C2C;
+  color: white;
+  border: none;
+  padding: 15px 90px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.button-copy:hover {
+  background-color: #FFB300;
+  transition: 400ms;
+  cursor: pointer;
+}
+
+.icons-react {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}

@@ -1,6 +1,7 @@
 import { useContext, useState } from 'react';
 import { Link } from "react-router-dom";
 import MyContext from "../context/MyContext";
+import './Header.css';
 
 function Header () {
   const [active, setMode] = useState(false);

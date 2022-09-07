@@ -1,6 +1,7 @@
 import { BsFillBootstrapFill } from 'react-icons/bs';
 import { FaGitSquare, FaNode, FaReact } from 'react-icons/fa';
 import { SiCss3, SiHtml5, SiJavascript, SiReactrouter, SiRedux } from 'react-icons/si';
+import './Habilidades.css';
 
 function Habilidades() {
     return(
