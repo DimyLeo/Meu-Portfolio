@@ -16,7 +16,19 @@ body {
 }
 
 .light-header-footer {
-  color: white;
+  background-color: #bebebe;
+  color: #1D1D1D;
+  box-shadow: 1px 3px 10px #696969;
+}
+
+.links-light {
+  color: #1D1D1D;
+}
+
+#copy-light {
+  color: #393939;
+  font-size: 14px;
+  margin-top: 20px;
 }
 
 .dark {
@@ -48,6 +60,11 @@ header {
   justify-content: space-between;
   align-items: center;
   box-shadow: 1px 3px 10px black;
+}
+
+.div-icons {
+  text-align: center;
+  margin: 5px 0;
 }
 
 .div-logo {
@@ -201,17 +218,22 @@ nav a:hover {
 }
 
 .icons-habilidades {
-  width: 150px;
+  width: 120px;
+  height: 120px;
   margin: 5px;
 }
 
 .div-icons-habilidades {
   margin-right: 10px;
-  width: 500px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .div-text-habilidades {
-  width: 400px;
+  width: 450px;
   margin-left: 10px;
 }
 
@@ -503,6 +525,11 @@ footer h2{
     margin-bottom: 10px;
     margin-left: 10px;
   }
+
+  .icons-habilidades {
+    width: 85px;
+    height: 85px;
+  }
 }
 
 @media only screen and (max-width: 690px) {
@@ -543,7 +570,7 @@ footer h2{
   }
 
   .div-icons-habilidades {
-    margin-top: 20px;
+    margin: auto;
   }
 
   .div-text-projetos {
@@ -599,18 +626,18 @@ footer h2{
   }
 
   .div-habilidades {
-    height: 90vh;
+    height: 120vh;
   }
 
   .div-text-habilidades {
-    width: 300px;
+    width: 320px;
   }
 
   .div-icons-habilidades {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 300px;
+    width: 350px;
   }
 
   .icons-habilidades {

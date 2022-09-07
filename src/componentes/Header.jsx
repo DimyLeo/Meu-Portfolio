@@ -30,10 +30,10 @@ function Header () {
             <div className={active ? 'menu menuOpen' : 'menu menuClose'}>
               <nav className="list">
                 <div className="listItems">
-                  <Link to="/" > Sobre-min </Link>
-                  <Link to="/habilidades" > Habilidades </Link>
-                  <Link to="/projetos" > Projetos </Link>
-                  <Link to="/contato">Contato</Link>
+                  <Link className={theme ? 'dark-header' : 'links-light'} to="/" > Sobre-min </Link>
+                  <Link className={theme ? 'dark-header' : 'links-light'} to="/habilidades" > Habilidades </Link>
+                  <Link className={theme ? 'dark-header' : 'links-light'} to="/projetos" > Projetos </Link>
+                  <Link className={theme ? 'dark-header' : 'links-light'} to="/contato">Contato</Link>
                 </div>
               </nav>
             </div>

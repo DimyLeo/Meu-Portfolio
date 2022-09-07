@@ -8,17 +8,17 @@ function Footer() {
     return(
       <footer className={theme ? 'dark-footer' : 'light-header-footer'}>
         <nav>
-          <Link to="/" > Sobre-min </Link>
-          <Link to="/habilidades" > Habilidades </Link>
-          <Link to="/projetos" > Projetos </Link>
-          <a href="#contato">Contato</a>
+          <Link className={theme ? 'dark-header' : 'links-light'} to="/" > Sobre-min </Link>
+          <Link className={theme ? 'dark-header' : 'links-light'} to="/habilidades" > Habilidades </Link>
+          <Link className={theme ? 'dark-header' : 'links-light'} to="/projetos" > Projetos </Link>
+          <Link className={theme ? 'dark-header' : 'links-light'} to="/contato">Contato</Link>
         </nav>
         <div>
           <h2>Contatos</h2>
           <p id="contato">Celular: (67)999094613</p>
           <p>Email: leonardoprimoc@hotmail.com</p>
         </div>
-        <p id="copy">© Copyright DimyLeo - 2022</p>
+        <p id={theme ? 'copy' : 'copy-light'}>© Copyright DimyLeo - 2022</p>
       </footer>
     )
 }
