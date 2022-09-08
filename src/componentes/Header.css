@@ -54,6 +54,12 @@
   margin-right: 20px;
 }
 
+.line-light {
+  border-left: 1px solid #2c2c2c;
+  height: 40px;
+  margin-right: 20px;
+}
+
 .switch {
   display: flex;
   justify-content: center;

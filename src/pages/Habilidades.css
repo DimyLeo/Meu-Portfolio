@@ -6,8 +6,8 @@
 }
 
 .div-text-habilidades {
-  width: 450px;
-  margin-left: 10px;
+  max-width: 450px;
+  min-width: 300px;
 }
 
 .div-icons-habilidades {
@@ -28,54 +28,4 @@
   width: 120px;
   height: 120px;
   margin: 5px;
-}
-
-@media only screen and (max-width: 920px) {
-  .icons-habilidades {
-    width: 80px;
-    height: 80px;
-  }
-}
-
-@media only screen and (max-width: 690px) {
-  .div-habilidades {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 120vh;
-  }
-
-  .div-icons-habilidades {
-    margin: auto;
-  }
-
-  .div-icons {
-    margin: 15px 5px;
-  }
-}
-
-@media only screen and (max-width: 530px) {
-  .div-icons-habilidades{
-    display: flex;
-    flex-wrap: wrap;
-    width: 300px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-
-  .div-icons {
-    margin: 2px 1px;
-  }
-  .icons-habilidades {
-    width: 60px;
-    height: 60px;
-  }
-
-  .div-habilidades {
-    height: 110vh;
-  }
-
-  .div-text-habilidades {
-    width: 300px;
-  }
 }
