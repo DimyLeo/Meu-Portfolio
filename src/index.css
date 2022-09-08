@@ -67,7 +67,8 @@ nav a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column-reverse;
-    height: 180vh;
+    margin-top: 170px;
+    margin-bottom: 170px;
   }
 
   .switch-text {
@@ -88,7 +89,9 @@ nav a:hover {
   }
   
   .listItems a {
+    text-align: center;
     margin: 10px 0;
+    color: white;
     background-color: #1D1D1D;
     padding: 20px;
     border-radius: 20px;
@@ -138,7 +141,6 @@ nav a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column-reverse;
-    height: 160vh;
   }
 
   #logo {
@@ -160,11 +162,12 @@ nav a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 120vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .div-icons-habilidades {
-    margin: auto;
+    margin-top: 20px;
   }
 
   .div-text-projetos {
@@ -219,12 +222,8 @@ nav a:hover {
     width: 320px;
   }
 
-  .div-habilidades {
-    height: 120vh;
-  }
-
   .div-text-habilidades {
-    width: 320px;
+    width: 310px;
   }
 
   .div-icons-habilidades {
@@ -232,7 +231,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 320px;
+    width: 310px;
   }
 
   .icons-habilidades {

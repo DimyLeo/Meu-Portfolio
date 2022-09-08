@@ -28,9 +28,9 @@ function Header () {
               <img src={active ? 'https://images2.imgbox.com/ac/69/YihMkIjJ_o.png' : "https://images2.imgbox.com/4b/75/ljggGs4T_o.png"} alt="ham-icon" className="hamburguer hamburguerIcon" />
             </div>
 
-            <div className={active ? 'menu menuOpen' : 'menu menuClose'}>
-              <nav className="list">
-                <div className="listItems">
+            <div style={{backgroundColor: theme ? '#2c2c2c' : '#939393',}} className={active ? 'menu menuOpen' : 'menu menuClose'}>
+              <nav className='list'>
+                <div className='listItems'>
                   <Link className={theme ? 'dark-header' : 'links-light'} to="/" > Sobre-min </Link>
                   <Link className={theme ? 'dark-header' : 'links-light'} to="/habilidades" > Habilidades </Link>
                   <Link className={theme ? 'dark-header' : 'links-light'} to="/projetos" > Projetos </Link>
@@ -39,7 +39,7 @@ function Header () {
               </nav>
             </div>
 
-            <span className="line" />
+            <span className={theme ? 'line' : 'line-light'} />
             <div className="div-dark-light">
               <label className="switch" htmlFor="dark-light">
                 <span className="switch-text">Dark/Light</span>
