@@ -31,7 +31,7 @@ function Header () {
             <div style={{backgroundColor: theme ? '#2c2c2c' : '#939393'}} className={active ? 'menu menuOpen' : 'menu menuClose'}>
               <nav className='list'>
                 <div className='listItems'>
-                  <Link className={theme ? 'dark-header' : 'links-light'} to="/" > Sobre-min </Link>
+                  <Link className={theme ? 'dark-header' : 'links-light'} to="/Meu-Portfolio" > Sobre-min </Link>
                   <Link className={theme ? 'dark-header' : 'links-light'} to="/habilidades" > Habilidades </Link>
                   <Link className={theme ? 'dark-header' : 'links-light'} to="/projetos" > Projetos </Link>
                   <Link className={theme ? 'dark-header' : 'links-light'} to="/contato"> Contato </Link>

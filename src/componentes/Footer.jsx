@@ -9,7 +9,7 @@ function Footer() {
     return(
       <footer className={theme ? 'dark-footer' : 'light-header-footer'}>
         <nav>
-          <Link className={theme ? 'dark-header' : 'links-light'} to="/" > Sobre-min </Link>
+          <Link className={theme ? 'dark-header' : 'links-light'} to="/Meu-Portfolio" > Sobre-min </Link>
           <Link className={theme ? 'dark-header' : 'links-light'} to="/habilidades" > Habilidades </Link>
           <Link className={theme ? 'dark-header' : 'links-light'} to="/projetos" > Projetos </Link>
           <Link className={theme ? 'dark-header' : 'links-light'} to="/contato">Contato</Link>
