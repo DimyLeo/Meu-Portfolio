@@ -28,7 +28,7 @@ function Header () {
               <img src={active ? 'https://images2.imgbox.com/ac/69/YihMkIjJ_o.png' : "https://images2.imgbox.com/4b/75/ljggGs4T_o.png"} alt="ham-icon" className="hamburguer hamburguerIcon" />
             </div>
 
-            <div style={{backgroundColor: theme ? '#2c2c2c' : '#939393',}} className={active ? 'menu menuOpen' : 'menu menuClose'}>
+            <div style={{backgroundColor: theme ? '#2c2c2c' : '#939393'}} className={active ? 'menu menuOpen' : 'menu menuClose'}>
               <nav className='list'>
                 <div className='listItems'>
                   <Link className={theme ? 'dark-header' : 'links-light'} to="/" > Sobre-min </Link>
