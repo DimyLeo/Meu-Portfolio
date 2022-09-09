@@ -11,7 +11,7 @@ function Contato() {
   }
 
   return (
-    <div className="div-contato">
+    <div className="div-contato" id="contato">
       <div className="head-contato">
         <h1>Contatos</h1>
         <p>Estes são alguns meios de entrar em contato comigo</p>

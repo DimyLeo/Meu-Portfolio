@@ -34,7 +34,7 @@ function Header () {
                   <Link className={theme ? 'dark-header' : 'links-light'} to="/" > Sobre-min </Link>
                   <Link className={theme ? 'dark-header' : 'links-light'} to="/habilidades" > Habilidades </Link>
                   <Link className={theme ? 'dark-header' : 'links-light'} to="/projetos" > Projetos </Link>
-                  <Link className={theme ? 'dark-header' : 'links-light'} to="/contato">Contato</Link>
+                  <Link className={theme ? 'dark-header' : 'links-light'} to="/contato"> Contato </Link>
                 </div>
               </nav>
             </div>
