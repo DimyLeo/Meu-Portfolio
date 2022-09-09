@@ -4,7 +4,7 @@ import './Sobre.css';
 function Sobre() {
     return(
       <div className="sobre">
-        <img id="cartoon" src="https://images2.imgbox.com/7a/03/Trr1aOFg_o.png" alt="Cartoon Meu"/>
+        <img id="cartoon" src="https://images2.imgbox.com/de/14/4qZwpJKr_o.png" alt="Cartoon Meu"/>
         <div className="text-sobre">
             <h1>Olá, me chamo Leonardo Cavalcante Primo</h1>
             <h2>Sobre min:</h2>
