@@ -7,7 +7,6 @@ function Projetos() {
           <h1>Alguns Projetos de Exemplo:</h1>
           <p>Esses são alguns Projetos que fiz/a fazer durante o curso da Trybe, sendo um deles esse próprio Site Pessoal.</p>
         </div>
-
         <div className="div-img-projetos">
 
           <div className="container-project">
@@ -57,7 +56,10 @@ function Projetos() {
             <a href="d" target="_blank" className="comentario" rel="noreferrer"><h2>Clique para abrir o site</h2></a>
             <img className="projetos" src="https://images2.imgbox.com/6e/33/jZElQvv5_o.png" alt="Projeto"/>
           </div>
-
+          <a href='#top' className='div-bottom-top-img back-top'>
+            <img className='img-bottom-top' src='https://images2.imgbox.com/1b/05/RArfC3w5_o.png' alt='bottom-img' />
+            <h2>BACK TOP</h2>
+          </a>
         </div>
       </div>
     )
