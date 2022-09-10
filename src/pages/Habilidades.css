@@ -13,6 +13,7 @@
 .div-icons-habilidades {
   max-width: 450px;
   min-width: 200px;
+  max-height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,4 +30,13 @@
   padding: 10px;
   width: 100px;
   height: 100px;
+}
+
+.div-bottom-habilites {
+  margin: auto;
+  text-align: center;
+}
+
+.img-btm-habilites {
+  width: 70px;
 }

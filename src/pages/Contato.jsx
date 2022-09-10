@@ -12,6 +12,7 @@ function Contato() {
 
   return (
     <div className="div-contato" id="contato">
+      <img className="right-raio" src="https://images2.imgbox.com/e0/0f/fV1dK5s9_o.png" alt="right-raio" />
       <div className="head-contato">
         <h1>Contatos</h1>
         <p>Estes são alguns meios de entrar em contato comigo</p>
@@ -42,6 +43,7 @@ function Contato() {
             <button className="limpar-msg" type="reset">Limpar</button>
           </div>
         </form>
+      <img className="left-raio" src="https://images2.imgbox.com/ab/ab/lweyN9zP_o.png" alt="left-raio" />
     </div>
   )
 }

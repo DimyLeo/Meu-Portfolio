@@ -3,6 +3,7 @@ import './Projetos.css';
 function Projetos() {
     return(
       <div className="div-projetos">
+        <img className="right-raio" src="https://images2.imgbox.com/e0/0f/fV1dK5s9_o.png" alt="right-raio" />
         <div className="div-text-projetos">
           <h1>Alguns Projetos de Exemplo:</h1>
           <p>Esses são alguns Projetos que fiz/a fazer durante o curso da Trybe, sendo um deles esse próprio Site Pessoal.</p>
@@ -61,6 +62,7 @@ function Projetos() {
             <h2>BACK TOP</h2>
           </a>
         </div>
+        <img className="left-raio" src="https://images2.imgbox.com/ab/ab/lweyN9zP_o.png" alt="left-raio" />
       </div>
     )
 }
