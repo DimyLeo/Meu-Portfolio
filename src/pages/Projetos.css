@@ -91,3 +91,8 @@
 .back-top {
   text-decoration: none;
 }
+
+.back-top h2 {
+  width: 200px;
+  text-align: center;
+}

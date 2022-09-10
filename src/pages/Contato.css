@@ -58,3 +58,7 @@
   margin: 5px 5px;
   cursor: pointer;
 }
+
+.div-contato .left-raio {
+  bottom: -60px;
+}

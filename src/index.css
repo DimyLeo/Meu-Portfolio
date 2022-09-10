@@ -62,17 +62,11 @@ nav a:hover {
   align-items: center;
 }
 
-.right-raio {
-  width: 60px;
+.div-projetos .left-raio {
   position: absolute;
-  right: 0;
-}
-
-.left-raio {
   width: 60px;
-  position: absolute;
   left: 0;
-  bottom: 30px;
+  bottom: -3480px;
 }
 
 @media only screen and (max-width: 920px) {
@@ -80,8 +74,8 @@ nav a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column-reverse;
-    margin-top: 230px;
-    margin-bottom: 230px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .switch-text {
@@ -136,14 +130,44 @@ nav a:hover {
     margin-left: 10px;
   }
 
+  .div-icons {
+    font-size: 15px;
+  }
+
   .icons-habilidades {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .div-icons-habilidades {
+    display: flex;
+    margin-top: 40px;
   }
 
   .div-habilidades {
-    margin-top: 130px;
-    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .div-text-habilidades {
+    margin-left: 40px;
+  }
+
+  .sobre .left-raio {
+    position: absolute;
+    width: 60px;
+    left: 0;
+    bottom: -115%;
+  }
+
+  .div-habilidades .left-raio {
+    bottom: -17%;
+  }
+
+  .div-contato .left-raio {
+    bottom: -390px;
   }
 }
 
@@ -183,10 +207,6 @@ nav a:hover {
     margin-bottom: 100px;
   }
 
-  .div-icons-habilidades {
-    margin-top: 20px;
-  }
-
   .div-text-projetos {
     width: 400px;
   }
@@ -219,9 +239,22 @@ nav a:hover {
   .comentario h2 {
     margin-top: 85px;
   }
+
+  .div-habilidades .left-raio {
+    bottom: -33%;
+  }
+
+  .div-projetos .left-raio {
+    bottom: -3130px;
+  }
 }
 
 @media only screen and (max-width: 530px) {
+  .sobre {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
   #cartoon {
     width: 320px;
   }
@@ -244,16 +277,19 @@ nav a:hover {
   }
 
   .text-sobre {
-    width: 320px;
+    width: 300px;
   }
 
   .div-habilidades {
+    margin: auto;
+    width: 300px;
     margin-top: 220px;
     margin-bottom: 220px;
   }
 
   .div-text-habilidades {
-    width: 310px;
+    margin-left: 0px;
+    width: 300px;
   }
 
   .div-icons-habilidades {
@@ -320,5 +356,25 @@ nav a:hover {
   .button-copy {
     padding: 17px 130px;
     margin-bottom: 10px;
+  }
+
+  .div-bottom-top-img {
+    width: 100px;
+    margin: auto;
+  }
+
+  .sobre .left-raio {
+    position: absolute;
+    width: 60px;
+    left: 0;
+    bottom: -105%;
+  }
+
+  .div-habilidades .left-raio {
+    bottom: -72%;
+  }
+
+  .div-projetos .left-raio {
+    bottom: -3100px;
   }
 }

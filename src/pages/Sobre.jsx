@@ -4,6 +4,7 @@ import './Sobre.css';
 function Sobre() {
     return(
       <div className="sobre" id='sobre-min'>
+        <img className="right-raio" src="https://images2.imgbox.com/e0/0f/fV1dK5s9_o.png" alt="right-raio" />
         <img id="cartoon" src="https://images2.imgbox.com/de/14/4qZwpJKr_o.png" alt="Cartoon Meu"/>
         <div className="text-sobre">
           <div className='name-sobre'>
@@ -22,6 +23,7 @@ function Sobre() {
             <img className='img-bottom-top' src='https://images2.imgbox.com/28/57/jRjEjxqr_o.png' alt='bottom-img' />
           </div>
         </div>
+        <img className="left-raio" src="https://images2.imgbox.com/ab/ab/lweyN9zP_o.png" alt="left-raio" />
       </div>
     )
 }

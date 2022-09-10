@@ -14,14 +14,12 @@ function App() {
   return (
     <div className={theme ? 'App dark' : 'App light'}>
       <Header />
-        <img className="right-raio" src="https://images2.imgbox.com/e0/0f/fV1dK5s9_o.png" alt="right-raio" />
         <Switch>
           <Route exact path="/Meu-Portfolio" component={Sobre} />
           <Route path="/habilidades" component={Habilidades} />
           <Route path="/projetos" component={Projetos} />
           <Route path="/contato" component={Contato} />
         </Switch>
-        <img className="left-raio" src="https://images2.imgbox.com/ab/ab/lweyN9zP_o.png" alt="left-raio" />
       <Footer />
     </div>
   );
