@@ -1,5 +1,5 @@
 footer {
-  background-color: #2C2C2C;
+  background-color: #272727;
   text-align: center;
   bottom: 0;
   width: 100%;
@@ -12,7 +12,7 @@ footer {
 }
 
 footer h2{
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #copy {
@@ -28,7 +28,7 @@ footer h2{
   margin-top: 20px;
 }
 
-.light-header-footer {
+.light-footer {
   background-color: #939393;
   color: #1D1D1D;
   box-shadow: 1px 3px 10px #696969;
@@ -36,4 +36,16 @@ footer h2{
 
 .links-light {
   color: #1D1D1D;
+}
+
+.icons-footer {
+  width: 25px;
+  height: 25px;
+}
+
+.itens-contatos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
 }
