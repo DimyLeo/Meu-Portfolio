@@ -1,7 +1,12 @@
+.dark-header {
+  background: none;
+  box-shadow: none;
+}
+
 .light-header-footer {
-  background-color: #939393;
+  background: none;
   color: #1D1D1D;
-  box-shadow: 1px 3px 10px #696969;
+  box-shadow: none;
 }
 
 .div-logo {
@@ -30,7 +35,7 @@
   background-color: #2C2C2C;
   padding: 40px 30px;
   transition: 0.5s;
-  box-shadow: -5px 10px 10px black;
+  box-shadow: -5px 10px 10px rgb(0, 0, 0, 0.5);
 }
 
 .menuClose {

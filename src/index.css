@@ -24,12 +24,10 @@ html {
 }
 
 header {
-  background-color: #2C2C2C;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 1px 3px 10px black;
 }
 
 nav a {
