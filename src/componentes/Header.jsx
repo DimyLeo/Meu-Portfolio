@@ -19,8 +19,8 @@ function Header () {
     return(
       <header className={theme ? 'dark-header' : 'light-header-footer'}>
         <div className="div-logo">
-          <a href="https://dimyleo.github.io/Meu-Portfolio"><img id="logo" src="https://images2.imgbox.com/ee/49/Hi1SGH3A_o.png" alt="Logo"/></a>
-          <h3>LEO</h3><p>CAVALCANTE</p>
+          <a href="https://dimyleo.github.io/Meu-Portfolio"><img id="logo" src="https://images2.imgbox.com/02/9c/CSeCpIv1_o.png" alt="Logo"/></a>
+          <p>CAVALCANTE</p>
         </div>
           <div className="links-and-dark-mode"> 
 
