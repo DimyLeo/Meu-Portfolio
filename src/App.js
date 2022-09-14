@@ -15,7 +15,7 @@ function App() {
     <div className={theme ? 'App dark' : 'App light'}>
       <Header />
         <Switch>
-          <Route exact path="/Meu-Portfolio" component={Sobre} />
+          <Route exact path="/" component={Sobre} />
           <Route path="/habilidades" component={Habilidades} />
           <Route path="/projetos" component={Projetos} />
           <Route path="/contato" component={Contato} />
