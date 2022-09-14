@@ -1,10 +1,7 @@
-import { useContext } from 'react';
-import MyContext from '../context/MyContext';
 import projetos from '../data/Projetos';
 import './Projetos.css';
 
 function Projetos() {
-  const {theme} = useContext(MyContext);
 
     return(
       <div className="div-projetos">
@@ -18,10 +15,10 @@ function Projetos() {
             <div className='container'>
               {projetos.map((index) => {
                 return (
-                <div key={index.id} className={theme ? `projeto${index.id} details-projeto dark-projeto` : `projeto${index.id} details-projeto light-projeto`}>
+                <div key={index.id} className={`projeto${index.id} details-projeto`}>
                   <h2>{index.title}</h2>
                   <p>{index.describe}</p>
-                  <p>Clique Sobre a imagem para abrir o site ⇩</p>
+                  <p>Clique sobre a imagem para abrir o site ⇩</p>
                   <a href={index.link} target='blank'>
                     Clique para abrir o site
                   </a>

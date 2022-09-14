@@ -3,7 +3,7 @@ const projetos = [
   {
     id: 1,
     title: 'Projeto App de Receitas',
-    describe: 'Esse é o um Projeto em grupo feito em React com ContextAPI, avaliando a criação de um app de Receitas que instrui e ensina receitas, é tambem avaliado as habilidades de trabalhar em grupo.',
+    describe: 'Esse é o um Projeto em grupo feito em React com ContextAPI, avaliando a criação de um App de receitas que instrui e ensina receitas e avalia as habilidades de trabalhar em grupo.',
     link: 'https://dimyleo.github.io/Projeto-App-de-Receitas/',
     img: 'https://images2.imgbox.com/db/23/4hQiJBMm_o.jpg'
   },
