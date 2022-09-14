@@ -7,85 +7,62 @@
   margin-top: 50px;
 }
 
-.div-text-projetos {
-  width: 650px;
+.head-projetos {
   text-align: center;
-  margin: 40px 0 20px 0;
+  margin-bottom: 50px;
 }
 
-.div-img-projetos {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px 50px;
 }
 
-.container-project {
+.details-projeto {
+  background-color: #242424;
+  box-shadow: -5px 10px 10px rgb(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 20px;
   text-align: center;
 }
 
-.container-project a {
+.details-projeto p {
+  margin: 10px;
+}
+
+.details-projeto a {
   color: white;
+  position: absolute;
   text-decoration: none;
-}
-
-.titulo-projetos {
-  margin-top: 50px;
-}
-
-.descrição-projetos {
-  margin: 20px;
-  width: 600px;
-  text-align: center;
-}
-
-#app-receitas {
+  background-color: rgb(128, 128, 128, 0.7);
   width: 300px;
-}
-
-.comentario {
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 20px;
-  z-index: 1;
-  width: 650px;
-  height: 340px;
+  padding-top: 65px;
+  padding-bottom: 72px;
   opacity: 0;
 }
 
-.comentario h2 {
-  margin-top: 125px;
+.details-projeto a:hover {
+  opacity: 1;
 }
 
-.comentario:hover {
-  background-color: #363636;
-  opacity: 0.8;
-  transition: 400ms;
-}
+.projeto1 { grid-area: projeto1; max-width: 400px; height: 450px; }
+.projeto2 { grid-area: projeto2; max-width: 400px; height: 450px; }
+.projeto3 { grid-area: projeto3; max-width: 400px; height: 450px; }
+.projeto4 { grid-area: projeto4; max-width: 400px; height: 450px; }
+.projeto5 { grid-area: projeto5; max-width: 400px; height: 450px; }
+.projeto6 { grid-area: projeto6; max-width: 400px; height: 450px; }
 
-.comentario-celular {
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 20px;
-  z-index: 1;
+.img-projetos {
   width: 300px;
-  height: 535px;
-  opacity: 0;
 }
 
-.comentario-celular h2 {
-  margin-top: 125px;
-}
-
-.comentario-celular:hover {
-  background-color: #363636;
-  opacity: 0.8;
-  transition: 400ms;
-}
-
-.projetos {
-  width: 650px;
-  margin: 20px;
+.left-raio-projetos {
+  position: absolute;
+  width: 60px;
+  left: 0;
+  bottom: 0;
 }
 
 .back-top {

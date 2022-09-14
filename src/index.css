@@ -60,11 +60,9 @@ nav a:hover {
   align-items: center;
 }
 
-.div-projetos .left-raio {
-  position: absolute;
-  width: 60px;
-  left: 0;
-  bottom: -3480px;
+.light-projeto {
+  background-color: #939393;
+  color: #1D1D1D;
 }
 
 @media only screen and (max-width: 920px) {
