@@ -9,7 +9,7 @@ function Habilidades() {
         <div className="div-habilidades" id='habilidades'>
         <img className="right-raio" src="https://images2.imgbox.com/e0/0f/fV1dK5s9_o.png" alt="right-raio" />
           <div className="div-text-habilidades">
-            <h1>Habilidades:</h1>
+            <h1>Habilidades</h1>
             <p>Esses são algumas tecnologias que tenho utilizado para o Desenvolvimento Web e ultilizei para construir este site sendo elas <b>HTML, CSS, JavaScript, React, Git...</b> E estou estudando para me tornar um Desenvolvedor Web FullStack.</p>
           </div>
           <div className="div-icons-habilidades">
