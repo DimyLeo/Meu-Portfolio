@@ -13,7 +13,7 @@ function Sobre() {
           </div>
             <h2>Sobre min:</h2>
             <p>
-              Estou cursando Desenvolvimento Web na Trybe, moro no Brasil no estado do Mato Grosso do Sul em Bataguassu, tenho 19 anos de idade, cursei 1 ano de Direito até decidir seguir carreira na programação, em Desenvolvimento Web.
+              Sou Desenvolvedor Web me formando na Trybe, moro no Brasil no estado do Mato Grosso do Sul em Bataguassu, tenho 20 anos de idade, cursei 1 termo de Direito até decidir seguir carreira na programação, em Desenvolvimento Web.
             </p>
           <div className="div-icons-redes">
             <a className="button-copy" href="https://github.com/DimyLeo" target="_blank" rel="noreferrer"><BsGithub className="icons-react" /></a>
