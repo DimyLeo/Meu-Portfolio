@@ -25,6 +25,10 @@
   text-align: center;
 }
 
+.div-icons h3 {
+  font-size: 20px;
+}
+
 .icons-habilidades {
   border-radius: 20px;
   padding: 10px;

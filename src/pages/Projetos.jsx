@@ -1,4 +1,5 @@
 import { BsGithub } from 'react-icons/bs';
+import Fade from 'react-reveal/Fade';
 import projetos from '../data/Projetos';
 import './Projetos.css';
 
@@ -12,11 +13,14 @@ function Projetos() {
       <div className="div-projetos">
         <img className="right-raio" src="https://images2.imgbox.com/e0/0f/fV1dK5s9_o.png" alt="right-raio" />
 
-          <div className="head-projetos">
-            <h1>Alguns Projetos de Exemplo</h1>
-            <p>Esses são alguns Projetos que fiz/a fazer durante o curso da Trybe, sendo um deles esse próprio Site Pessoal.</p>
-          </div>
+          <Fade top>
+            <div className="head-projetos">
+              <h1>Alguns Projetos de Exemplo</h1>
+              <p>Esses são alguns Projetos que fiz/a fazer durante o curso da Trybe, sendo um deles esse próprio Site Pessoal.</p>
+            </div>
+          </Fade>
 
+          <Fade>
             <div className='container'>
               {projetos.map((index) => {
                 return (
@@ -32,6 +36,7 @@ function Projetos() {
                 </div>
               )})}
             </div>
+          </Fade>
 
           <button onClick={handleClick} className='div-bottom-top-img back-top'>
             <img className='img-bottom-top' src='https://images2.imgbox.com/1b/05/RArfC3w5_o.png' alt='bottom-img' />

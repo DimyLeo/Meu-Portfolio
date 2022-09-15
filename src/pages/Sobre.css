@@ -7,13 +7,13 @@
 }
 
 #cartoon {
-  max-width: 500px;
+  max-width: 550px;
   margin-right: 10px;
 }
 
 #cartoon:hover {
-  max-width: 550px;
-  transition: 400ms;
+  transform: rotateY(360deg);
+  transition: 900ms;
 }
 
 .text-sobre {
@@ -31,7 +31,6 @@
   margin-left: 220px;
   width: 150px;
   height: 120px;
-  filter: drop-shadow(2px 2px 5px rgb(68, 68, 68));
 }
 
 .div-bottom-top-img {
@@ -40,14 +39,13 @@
   justify-content: center;
   align-items: center;
   width: 400px;
-  color: #FFB300;
+  color: var(--yellow);
   font-size: 20px;
 }
 
 .img-bottom-top {
   margin-top: 15px;
   width: 70px;
-  filter: drop-shadow(2px 2px 5px rgb(68, 68, 68));
 }
 
 .div-icons-redes {
@@ -57,8 +55,8 @@
 }
 
 .button-copy {
-  background-color: #2C2C2C;
-  color: white;
+  background-color: var(--grey-light);
+  color: var(--white);
   border: none;
   padding: 15px 90px;
   margin: 5px;
@@ -66,7 +64,8 @@
 }
 
 .button-copy:hover {
-  background-color: #FFB300;
+  background-color: var(--yellow);
+  color: var(--grey-light);
   transition: 400ms;
   cursor: pointer;
 }

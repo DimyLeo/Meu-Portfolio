@@ -21,8 +21,8 @@
 }
 
 .details-projeto {
-  background-color: #1d1d1d;
-  color: white;
+  background-color: var(--grey-strong);
+  color: var(--white);
   box-shadow: -5px 10px 10px rgb(0, 0, 0, 0.5);
   border-radius: 20px;
   padding: 20px;
@@ -32,16 +32,20 @@
   height: 500px;
 }
 
+.details-projeto h2 {
+  font-size: 1.7em;
+}
+
 .details-projeto p {
   font-size: 1.1em;
   margin: 10px;
 }
 
 .link-site {
-  color: white;
+  color: var(--white);
   position: absolute;
   text-decoration: none;
-  background-color: rgb(128, 128, 128, 0.7);
+  background-color: rgba(44, 44, 44, 0.7);
   backdrop-filter: blur(2px);
   width: 300px;
   padding-top: 65px;
@@ -50,6 +54,7 @@
 }
 
 .link-site:hover {
+  color: var(--white);
   transition: 400ms;
   opacity: 1;
 }
@@ -59,8 +64,8 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: white;
-  background-color: #2c2c2c;
+  color: var(--white);
+  background-color: var(--grey-light);
   padding: 10px;
   border-radius: 10px;
   width: 300px;
@@ -68,7 +73,8 @@
 }
 
 .github-link:hover {
-  background-color: #a19f00;
+  background-color: var(--yellow);
+  color: var(--grey-light);
   transition: 400ms;
 }
 
