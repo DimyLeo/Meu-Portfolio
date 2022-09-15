@@ -21,12 +21,15 @@
 }
 
 .details-projeto {
-  background-color: #242424;
+  background-color: #1d1d1d;
   color: white;
   box-shadow: -5px 10px 10px rgb(0, 0, 0, 0.5);
   border-radius: 20px;
   padding: 20px;
+  margin: 5px;
   text-align: center;
+  max-width: 400px;
+  height: 500px;
 }
 
 .details-projeto p {
@@ -34,28 +37,53 @@
   margin: 10px;
 }
 
-.details-projeto a {
+.link-site {
   color: white;
   position: absolute;
   text-decoration: none;
   background-color: rgb(128, 128, 128, 0.7);
+  backdrop-filter: blur(2px);
   width: 300px;
   padding-top: 65px;
   padding-bottom: 72px;
   opacity: 0;
 }
 
-.details-projeto a:hover {
+.link-site:hover {
   transition: 400ms;
   opacity: 1;
 }
 
-.projeto1 { grid-area: projeto1; max-width: 400px; height: 450px; }
-.projeto2 { grid-area: projeto2; max-width: 400px; height: 450px; }
-.projeto3 { grid-area: projeto3; max-width: 400px; height: 450px; }
-.projeto4 { grid-area: projeto4; max-width: 400px; height: 450px; }
-.projeto5 { grid-area: projeto5; max-width: 400px; height: 450px; }
-.projeto6 { grid-area: projeto6; max-width: 400px; height: 450px; }
+.github-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background-color: #2c2c2c;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px auto;
+}
+
+.github-link:hover {
+  background-color: #a19f00;
+  transition: 400ms;
+}
+
+.github-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.projeto1 { grid-area: projeto1; }
+.projeto2 { grid-area: projeto2; }
+.projeto3 { grid-area: projeto3; }
+.projeto4 { grid-area: projeto4; }
+.projeto5 { grid-area: projeto5; }
+.projeto6 { grid-area: projeto6; }
 
 .img-projetos {
   width: 300px;
