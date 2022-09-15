@@ -13,7 +13,6 @@ function Header () {
 
   const handleChange = () => {
     setTheme(!theme)
-    console.log(theme)
   }
 
     return(

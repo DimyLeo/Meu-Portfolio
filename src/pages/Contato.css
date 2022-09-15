@@ -31,7 +31,7 @@
 
 .form-email textarea {
   height: 90px;
-  padding: 5px 38px;
+  padding: 5px 42px;
   border: none;
   border-radius: 5px;
   margin: 5px 0;
@@ -40,8 +40,8 @@
 }
 
 .submit-msg {
-  background-color: rgb(69, 69, 176);
-  color: white;
+  background-color: var(--btn-blue);
+  color: var(--white);
   padding: 10px 36px;
   border: none;
   border-radius: 5px;
@@ -50,8 +50,8 @@
 }
 
 .limpar-msg {
-  background-color: rgb(162, 54, 54);
-  color: white;
+  background-color: var(--btn-red);
+  color: var(--white);
   padding: 10px 36px;
   border: none;
   border-radius: 5px;
