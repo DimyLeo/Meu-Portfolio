@@ -38,3 +38,9 @@ footer h2{
 .contatos-footer {
   color: white;
 }
+
+@media only screen and (max-width: 350px) {
+  .itens-contatos p {
+    font-size: 15px;
+  }
+}

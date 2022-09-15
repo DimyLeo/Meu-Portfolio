@@ -1,3 +1,4 @@
+import { BsGithub } from 'react-icons/bs';
 import projetos from '../data/Projetos';
 import './Projetos.css';
 
@@ -23,10 +24,11 @@ function Projetos() {
                   <h2>{index.title}</h2>
                   <p>{index.describe}</p>
                   <p>Clique sobre a imagem para abrir o site ⇩</p>
-                  <a href={index.link} target='blank'>
+                  <a className='link-site' href={index.link} target='blank'>
                     Clique para abrir o site
                   </a>
-                    <img className='img-projetos' src={index.img} alt='img' />
+                  <img className='img-projetos' src={index.img} alt='img' />
+                  <a className='github-link' href={index.github} target='blank'>Repositório<BsGithub className='github-icon' /></a>
                 </div>
               )})}
             </div>

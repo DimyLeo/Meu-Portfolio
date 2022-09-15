@@ -42,16 +42,6 @@ body {
   }
 }
 
-/* .light {
-  background-image: linear-gradient(315deg, #8e8e8e 0%, #c1c1c1 46%, #dcdcdc 100%);
-  color: #1D1D1D;
-}
-
-.dark {
-  background-image: linear-gradient(315deg, #09090a 0%, #252525 46%, #353535 100%);
-  color: white;
-} */
-
 h1 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 50px;
@@ -182,7 +172,7 @@ nav a:hover {
     position: absolute;
     width: 60px;
     left: 0;
-    bottom: -115%;
+    bottom: -105%;
   }
 
   .div-habilidades .left-raio {
@@ -190,7 +180,7 @@ nav a:hover {
   }
 
   .div-contato .left-raio {
-    bottom: -390px;
+    bottom: -350px;
   }
 
   .left-raio-projetos {
@@ -391,17 +381,18 @@ nav a:hover {
   }
 
   .sobre .left-raio {
-    position: absolute;
-    width: 60px;
-    left: 0;
-    bottom: -105%;
+    display: none;
   }
 
   .div-habilidades .left-raio {
-    bottom: -72%;
+    display: none;
   }
 
-  .div-projetos .left-raio {
-    bottom: -3100px;
+  .left-raio-projetos {
+    display: none;
+  }
+
+  .div-contato .left-raio {
+    display: none;
   }
 }
