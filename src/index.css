@@ -150,10 +150,6 @@ nav a:hover {
     flex-direction: column;
   }
 
-  .sobre .div-icons-redes {
-    margin-right: 27px;
-  }
-
   .sobre .div-icons-redes .button-copy {
     padding: 15px 104px;
   }
@@ -370,10 +366,6 @@ nav a:hover {
     flex-direction: column;
   }
 
-  .sobre .div-icons-redes {
-    margin-right: 27px;
-  }
-
   .sobre .div-icons-redes .button-copy {
     padding: 15px 140px;
   }
@@ -385,11 +377,6 @@ nav a:hover {
 
   .comentario h2 {
     margin-top: 60px;
-  }
-
-  .button-copy {
-    padding: 17px 130px;
-    margin-bottom: 10px;
   }
 
   .div-bottom-top-img {
