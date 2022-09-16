@@ -33,6 +33,7 @@
 }
 
 .menuOpen {
+  z-index: 8001;
   display: block;
   position: absolute;
   top: 80px;
