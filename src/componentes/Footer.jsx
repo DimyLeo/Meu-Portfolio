@@ -5,13 +5,18 @@ import './Footer.css';
 
 function Footer() {
 
+const soundEfect = () => {
+  const sound = document.querySelector('audio');
+  sound.play();
+}
+
     return(
       <footer>
         <nav>
-          <Link to="/" > Sobre-min </Link>
-          <Link to="/habilidades" > Habilidades </Link>
-          <Link to="/projetos" > Projetos </Link>
-          <Link to="/contato">Contato</Link>
+          <Link onClick={soundEfect} to="/" > Sobre-min </Link>
+          <Link onClick={soundEfect} to="/habilidades" > Habilidades </Link>
+          <Link onClick={soundEfect} to="/projetos" > Projetos </Link>
+          <Link onClick={soundEfect} to="/contato">Contato</Link>
         </nav>
         <div className="contatos-footer">
           <h2>Contatos</h2>

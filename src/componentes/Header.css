@@ -1,11 +1,5 @@
-.dark-header {
+.header {
   background: none;
-  box-shadow: none;
-}
-
-.light-header-footer {
-  background: none;
-  color: var(--grey-strong);
   box-shadow: none;
 }
 
@@ -23,7 +17,7 @@
   margin-right: 3px;
 }
 
-.links-and-dark-mode {
+.links {
   display: flex;
   align-items: center;
 }
@@ -56,10 +50,6 @@
   flex-direction: row;
 }
 
-.links-light {
-  color: var(--grey-strong);
-}
-
 .line {
   border-left: 1px solid var(--back-light);
   height: 40px;
@@ -70,6 +60,10 @@
   border-left: 1px solid var(--grey-light);
   height: 40px;
   margin-right: 20px;
+}
+
+.links-light {
+  color: var(--grey-strong);
 }
 
 .switch {

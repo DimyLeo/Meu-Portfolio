@@ -15,13 +15,18 @@ function Header () {
     setTheme(!theme)
   }
 
+  const soundEfect = () => {
+    const sound = document.querySelector('audio');
+    sound.play();
+  }
+
     return(
-      <header className={theme ? 'dark-header' : 'light-header-footer'}>
+      <header className='header'>
         <div className="div-logo">
           <a href="https://dimyleo.github.io/Meu-Portfolio"><img id="logo" src="https://images2.imgbox.com/02/9c/CSeCpIv1_o.png" alt="Logo"/></a>
           <p>CAVALCANTE</p>
         </div>
-          <div className="links-and-dark-mode"> 
+          <div className="links"> 
 
             <div onClick={ToggleMode}>
               <img src={active ? 'https://images2.imgbox.com/0b/b4/Piseshjy_o.png' : "https://images2.imgbox.com/58/ba/kgNOzFkf_o.png"} alt="ham-icon" className="hamburguer hamburguerIcon" />
@@ -30,10 +35,10 @@ function Header () {
             <div className={active ? 'menu menuOpen' : 'menu menuClose'}>
               <nav className='list'>
                 <div className='listItems'>
-                  <Link className={theme ? 'dark-header' : 'links-light'} to="/" > Sobre-min </Link>
-                  <Link className={theme ? 'dark-header' : 'links-light'} to="/habilidades" > Habilidades </Link>
-                  <Link className={theme ? 'dark-header' : 'links-light'} to="/projetos" > Projetos </Link>
-                  <Link className={theme ? 'dark-header' : 'links-light'} to="/contato"> Contato </Link>
+                  <Link onClick={soundEfect} className={theme ? 'dark-header' : 'links-light'} to="/" > Sobre-min </Link>
+                  <Link onClick={soundEfect} className={theme ? 'dark-header' : 'links-light'} to="/habilidades" > Habilidades </Link>
+                  <Link onClick={soundEfect} className={theme ? 'dark-header' : 'links-light'} to="/projetos" > Projetos </Link>
+                  <Link onClick={soundEfect} className={theme ? 'dark-header' : 'links-light'} to="/contato"> Contato </Link>
                 </div>
               </nav>
             </div>

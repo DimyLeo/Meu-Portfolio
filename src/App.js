@@ -7,6 +7,7 @@ import Contato from "./pages/Contato";
 import Habilidades from "./pages/Habilidades";
 import Projetos from "./pages/Projetos";
 import Sobre from "./pages/Sobre";
+import sound from "./Transition-sound.mp3";
 
 function App() {
   const {theme} = useContext(MyContext);
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className={theme ? 'App dark' : 'App light'}>
       <Header />
+      <audio src={sound} alt='sound-efect'></audio>
         <Switch>
           <Route exact path="/" component={Sobre} />
           <Route path="/habilidades" component={Habilidades} />
