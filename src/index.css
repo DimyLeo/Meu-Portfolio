@@ -38,7 +38,7 @@ body {
     #b3b3b3, #8e8e8e);
     background-size: 400% 400%;
     animation: animate-background 7s infinite ease-in-out;
-    color: var(--grey-strong);
+  color: var(--grey-strong);
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -101,11 +101,6 @@ nav a:hover {
 ::-webkit-scrollbar-thumb {
   background-color: var(--yellow);
   border-radius: 50px;
-}
-
-.links-and-dark-mode {
-  display: flex;
-  align-items: center;
 }
 
 @media only screen and (max-width: 920px) {
