@@ -164,14 +164,9 @@ nav a:hover {
     font-size: 15px;
   }
 
-  .icons-habilidades {
-    width: 70px;
-    height: 70px;
-  }
-
   .div-icons-habilidades {
+    width: 600px;
     display: flex;
-    margin-top: 40px;
   }
 
   .div-habilidades {
@@ -277,6 +272,20 @@ nav a:hover {
   .div-habilidades .left-raio {
     bottom: -33%;
   }
+
+  .div-icons-habilidades {
+    width: 500px;
+    display: flex;
+  }
+
+  .div-habilidades h3 {
+    font-size: 40px;
+  }
+
+  .icons-habilidades {
+    width: 400px;
+    height: 80px;
+  }
 }
 
 @media only screen and (max-width: 530px) {
@@ -323,16 +332,18 @@ nav a:hover {
   }
 
   .div-icons-habilidades {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     width: 300px;
+    display: flex;
+  }
+
+  .div-habilidades h3 {
+    font-size: 28px;
+    width: 150px;
   }
 
   .icons-habilidades {
-    width: 70px;
-    height: 70px;
+    width: 400px;
+    height: 60px;
   }
 
   .div-icons {
@@ -400,7 +411,8 @@ nav a:hover {
     display: none;
   }
 
-  .img-btm-habilites {
-    margin-top: 50px;
+  .back-top-h {
+    margin-top: -150px;
+    margin-bottom: 50px;
   }
 }

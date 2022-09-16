@@ -16,7 +16,7 @@ const soundEfect = () => {
           <Link onClick={soundEfect} to="/" > Sobre-min </Link>
           <Link onClick={soundEfect} to="/habilidades" > Habilidades </Link>
           <Link onClick={soundEfect} to="/projetos" > Projetos </Link>
-          <Link onClick={soundEfect} to="/contato">Contato</Link>
+          <Link onClick={soundEfect} to="/contato">Contatos</Link>
         </nav>
         <div className="contatos-footer">
           <h2>Contatos</h2>

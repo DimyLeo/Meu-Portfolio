@@ -24,6 +24,7 @@
 }
 
 .hamburguer {
+  cursor: pointer;
   display: none;
 }
 
