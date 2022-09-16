@@ -20,10 +20,10 @@ function Projetos() {
             </div>
           </Fade>
 
-          <Fade>
             <div className='container'>
               {projetos.map((index) => {
                 return (
+                  <Fade bottom>
                 <div key={index.id} className={`projeto${index.id} details-projeto`}>
                   <h2>{index.title}</h2>
                   <p>{index.describe}</p>
@@ -34,9 +34,9 @@ function Projetos() {
                   <img className='img-projetos' src={index.img} alt='img' />
                   <a className='github-link' href={index.github} target='blank'>Repositório<BsGithub className='github-icon' /></a>
                 </div>
+                </Fade>
               )})}
             </div>
-          </Fade>
 
           <button onClick={handleClick} className='div-bottom-top-img back-top'>
             <img className='img-bottom-top' src='https://images2.imgbox.com/1b/05/RArfC3w5_o.png' alt='bottom-img' />
