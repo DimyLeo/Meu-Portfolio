@@ -15,7 +15,7 @@ function Projetos() {
 
           <Fade top>
             <div className="head-projetos">
-              <h1>Alguns Projetos de Exemplo</h1>
+              <h1>Projetos</h1>
               <p>Esses são alguns Projetos que fiz/a fazer durante o curso da Trybe, sendo um deles esse próprio Site Pessoal.</p>
             </div>
           </Fade>

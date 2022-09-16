@@ -38,7 +38,7 @@ function Header () {
                   <Link onClick={soundEfect} className={theme ? 'dark-header' : 'links-light'} to="/" > Sobre-min </Link>
                   <Link onClick={soundEfect} className={theme ? 'dark-header' : 'links-light'} to="/habilidades" > Habilidades </Link>
                   <Link onClick={soundEfect} className={theme ? 'dark-header' : 'links-light'} to="/projetos" > Projetos </Link>
-                  <Link onClick={soundEfect} className={theme ? 'dark-header' : 'links-light'} to="/contato"> Contato </Link>
+                  <Link onClick={soundEfect} className={theme ? 'dark-header' : 'links-light'} to="/contato"> Contatos </Link>
                 </div>
               </nav>
             </div>

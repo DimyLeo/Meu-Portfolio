@@ -2,47 +2,62 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.div-habilidades h3 {
+  font-size: 55px;
 }
 
 .div-text-habilidades {
-  max-width: 450px;
+  max-width: 1000px;
   min-width: 300px;
+  margin: 0 10px;
 }
 
 .div-icons-habilidades {
-  max-width: 450px;
-  min-width: 200px;
-  max-height: 800px;
+  display: flex;
+  flex-direction: column;
+  max-width: 815px;
+}
+
+.div-icons1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0;
+  background: linear-gradient(90deg, rgba(44,44,44,0.020) 50%, rgba(29,29,29,1) 50%);
+  border-radius: 0 20px 20px 0;
+}
+
+.div-icons2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-}
-
-.div-icons {
-  width: 150px;
-  text-align: center;
-}
-
-.div-icons h3 {
-  font-size: 20px;
+  flex-direction: row-reverse;
+  margin: 15px 0;
+  background: linear-gradient(90deg, rgba(29,29,29,1) 50%, rgba(44, 44, 44, 0.020) 50%);
+  border-radius: 20px 0 0 20px;
 }
 
 .icons-habilidades {
-  border-radius: 20px;
+  color: var(--white);
   padding: 10px;
-  width: 100px;
+  width: 400px;
   height: 100px;
 }
 
-.div-bottom-habilites {
-  margin: auto;
-  text-align: center;
+.back-top-h {
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 50px auto;
 }
 
-.img-btm-habilites {
-  width: 70px;
-  margin-top: -50px;
-  margin-bottom: 50px;
+.back-top-h h1 {
+  width: 200px;
+  font-size: 35px;
+  text-align: center;
 }
