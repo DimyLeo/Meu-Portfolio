@@ -337,17 +337,13 @@ nav a:hover {
   }
 
   .div-habilidades h3 {
-    font-size: 28px;
-    width: 150px;
+    font-size: 20px;
+    width: 370px;
   }
 
   .icons-habilidades {
     width: 400px;
     height: 60px;
-  }
-
-  .div-icons {
-    width: 120px;
   }
 
   .div-text-projetos {
