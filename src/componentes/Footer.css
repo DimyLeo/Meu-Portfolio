@@ -7,9 +7,8 @@ footer {
   margin: auto;
   padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-direction: column;
   box-shadow: 1px -3px 10px var(--black);
 }
 
@@ -17,8 +16,8 @@ footer p {
   margin: 2px;
 }
 
-footer h2{
-  margin-top: 10px;
+.left-footer {
+  display: flex;
 }
 
 #copy {
@@ -38,12 +37,35 @@ footer h2{
   margin: 5px;
 }
 
-.contatos-footer {
-  color: var(--white);
+.itens-contatos p {
+  font-size: 15px;
 }
 
-@media only screen and (max-width: 350px) {
-  .itens-contatos p {
-    font-size: 15px;
+.line-footer {
+  margin-top: 9px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 20px;
+  border-right: 1px solid var(--copy-footer);
+}
+
+@media only screen and (max-width: 700px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .left-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .line-footer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 0px;
+    border-bottom: 1px solid var(--copy-footer);
   }
 }
