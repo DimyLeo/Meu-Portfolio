@@ -184,11 +184,11 @@ nav a:hover {
     position: absolute;
     width: 60px;
     left: 0;
-    bottom: -105%;
+    bottom: -95%;
   }
 
   .div-habilidades .left-raio {
-    bottom: -17%;
+    bottom: -219%;
   }
 
   .div-contato .left-raio {
@@ -196,7 +196,7 @@ nav a:hover {
   }
 
   .left-raio-projetos {
-    bottom: -2450px;
+    bottom: -2565px;
   }
 }
 
@@ -270,7 +270,7 @@ nav a:hover {
   }
 
   .div-habilidades .left-raio {
-    bottom: -33%;
+    bottom: -180%;
   }
 
   .div-icons-habilidades {
@@ -317,6 +317,22 @@ nav a:hover {
 
   .text-sobre {
     width: 300px;
+  }
+  
+  .text-sobre h2 {
+    font-size: 25px;
+  }
+  
+  .text-sobre p {
+    font-size: 16px;
+  }
+  
+  .name-sobre {
+    display: flex;
+  }
+  
+  .name-sobre h1 {
+    font-size: 40px;
   }
 
   .div-habilidades {
