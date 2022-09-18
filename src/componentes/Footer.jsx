@@ -4,11 +4,6 @@ import './Footer.css';
 
 function Footer() {
 
-const soundEfect = () => {
-  const sound = document.querySelector('audio');
-  sound.play();
-}
-
     return(
       <footer>
         <div className='left-footer'>
