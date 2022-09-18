@@ -8,8 +8,20 @@
   margin-bottom: 30px;
 }
 
+.head-contato h1{
+  font-weight: 900;
+}
+
+.head-contato p{
+  font-weight: 200;
+}
+
 .email-copy {
   padding: 15px 90px;
+}
+
+.form-email h2 {
+  font-size: 25px;
 }
 
 .form-email {
