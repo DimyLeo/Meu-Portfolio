@@ -1,6 +1,7 @@
 footer {
   border-radius: 20px;
   background-color: var(--grey-light);
+  color: var(--white);
   text-align: center;
   bottom: 0;
   width: 98%;
