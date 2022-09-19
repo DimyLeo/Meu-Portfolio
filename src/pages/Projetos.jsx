@@ -25,13 +25,13 @@ function Projetos() {
                 return (
                   <Fade bottom>
                 <div key={index.id} className={`projeto${index.id} details-projeto`}>
+                  <a className='link-site' href={index.link} target='blank'>
+                    Clique para abrir o site
+                  </a>
                   <img className='img-projetos' src={index.img} alt='img' />
                   <h2>{index.title}</h2>
                   <p>Clique na imagem para abrir o site ⇧</p>
                   <p>{index.describe}</p>
-                  <a className='link-site' href={index.link} target='blank'>
-                    Clique para abrir o site
-                  </a>
                   <a className='github-link' href={index.github} target='blank'>Repositório<BsGithub className='github-icon' /></a>
                 </div>
                 </Fade>
