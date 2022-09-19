@@ -38,8 +38,8 @@ const projetos = [
 
   {
     id: 5,
-    title: 'Projeto Trybewarts Responsivo',
-    describe: 'Esse projeto é feito em HTML5, CSS3 e JavaScript sendo um site de um formulario escolar responsivo e validado baseado em Hogwarts.',
+    title: 'Projeto Trybewarts',
+    describe: 'Esse projeto é feito em HTML5, CSS3 e JavaScript, sendo um site de um formulario escolar responsivo e validado baseado em Hogwarts.',
     link: 'https://dimyleo.github.io/Projeto-Trybewarts-Responsivo/',
     img: 'https://images2.imgbox.com/24/5a/zpgTgHEP_o.jpg',
     github: 'https://github.com/DimyLeo/Projeto-Trybewarts-Responsivo'

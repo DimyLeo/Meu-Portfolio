@@ -196,7 +196,7 @@ nav a:hover {
   }
 
   .left-raio-projetos {
-    bottom: -2565px;
+    bottom: -2250px;
   }
 }
 
@@ -362,26 +362,6 @@ nav a:hover {
     height: 60px;
   }
 
-  .div-text-projetos {
-    width: 300px;
-  }
-
-  .projetos {
-    width: 300px;
-  }
-
-  .projetos:hover {
-    width: 350px;
-  }
-
-  .descrição-projetos{
-    width: 300px;
-  }
-
-  .titulo-projetos {
-    text-align: center;
-  }
-
   .div-icons-redes {
     display: flex;
     justify-content: center;
@@ -391,15 +371,6 @@ nav a:hover {
 
   .sobre .div-icons-redes .button-copy {
     padding: 15px 140px;
-  }
-
-  .comentario {
-    width: 300px;
-    height: 157px;
-  }
-
-  .comentario h2 {
-    margin-top: 60px;
   }
 
   .div-bottom-top-img {
