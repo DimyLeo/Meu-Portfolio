@@ -34,8 +34,8 @@ body {
 
 .light {
   background: linear-gradient(
-    to right, #8e8e8e,
-    #b3b3b3, #8e8e8e);
+    to right, #d1d1d1,
+    #9a9a9a, #d1d1d1);
     background-size: 400% 400%;
     animation: animate-background 7s infinite ease-in-out;
   color: var(--grey-strong);
