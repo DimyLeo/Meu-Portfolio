@@ -43,6 +43,24 @@ const projetos = [
     link: 'https://dimyleo.github.io/Projeto-Trybewarts-Responsivo/',
     img: 'https://images2.imgbox.com/24/5a/zpgTgHEP_o.jpg',
     github: 'https://github.com/DimyLeo/Projeto-Trybewarts-Responsivo'
+  },
+
+  {
+    id: 6,
+    title: 'Projeto Blog API',
+    describe: 'Foi desenvolvido o Back-end de um blog em que é possível criar, visualizar, deletar e atualizar posts, a API foi feita com a arquitetura MSC (model-service-controller)!.',
+    link: 'https://github.com/DimyLeo/Projeto-Blog-API',
+    img: 'https://images2.imgbox.com/c0/21/Gx3M9hLE_o.png',
+    github: 'https://github.com/DimyLeo/Projeto-Blog-API'
+  },
+
+  {
+    id: 7,
+    title: 'Projeto Store Manager',
+    describe: 'Foi desenvolvido o Back-end de um sistema de gerenciamento de vendas no formato dropshipping de em que é possível criar, visualizar, deletar e atualizar produtos e vendas.',
+    link: 'https://github.com/DimyLeo/Projeto-Store-Manager-Back-end',
+    img: 'https://images2.imgbox.com/50/bf/DQ2jYDKq_o.png',
+    github: 'https://github.com/DimyLeo/Projeto-Store-Manager-Back-end'
   }
 
 ]
