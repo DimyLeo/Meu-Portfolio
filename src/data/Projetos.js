@@ -9,8 +9,26 @@ const projetos = [
     github: 'https://github.com/DimyLeo/Projeto-App-de-Receitas'
   },
 
+  // {
+  //   id: 2,
+  //   title: 'Projeto TFC',
+  //   describe: 'Esse é um projeto FullStack avaliando a criação de um sistema de gerenciamento de um campeonato de futebol em que é possível criar, editar, deletar e atualizar jogos..',
+  //   link: '',
+  //   img: '',
+  //   github: 'https://github.com/DimyLeo/Projeto-TFC'
+  // },
+
   {
-    id: 2,
+    id: 3,
+    title: 'Teste Cashforce',
+    describe: 'Foi desenvolvido uma aplicação FullStack para um teste técnico na empresa CashForce onde foi solicitado a construção dessa pagina de notas fiscais.',
+    link: 'https://cashforce-teste.netlify.app/#/',
+    img: 'https://images2.imgbox.com/4d/34/URKYn88t_o.png',
+    github: 'https://github.com/DimyLeo/Teste-Cashforce'
+  },
+
+  {
+    id: 4,
     title: 'Projeto Trivia',
     describe: 'Esse é um projeto em grupo feito em React com Redux, avaliando as habilidades de trabalhar em grupo e a criação de um jogo de Trivia, de perguntas e respostas.',
     link: 'https://dimyleo.github.io/Projeto-Trivia/',
@@ -19,7 +37,7 @@ const projetos = [
   },
 
   {
-    id: 3,
+    id: 5,
     title: 'Projeto Tryunfo',
     describe: 'Esse é um projeto individual feito em React, avaliando a criação de um site onde você pode criar cards personalizados, com titulo, descrição, atributos, imagem e raridade.',
     link: 'https://dimyleo.github.io/Projeto-Tryunfo-Cards-Personalizaveis/',
@@ -28,7 +46,7 @@ const projetos = [
   },
 
   {
-    id: 4,
+    id: 6,
     title: 'Projeto RTL no Pokedex',
     describe: 'Esse é um projeto individual feito em React, avaliando principalmente os teste em React Testing Library, com base no classico Pokedex para visualizar as Pokedex.',
     link: 'https://dimyleo.github.io/Projeto-RTL-com-Pokedex/',
@@ -37,7 +55,7 @@ const projetos = [
   },
 
   {
-    id: 5,
+    id: 7,
     title: 'Projeto Trybewarts',
     describe: 'Esse projeto é feito em HTML5, CSS3 e JavaScript, sendo um site de um formulario escolar responsivo e validado baseado em Hogwarts.',
     link: 'https://dimyleo.github.io/Projeto-Trybewarts-Responsivo/',
@@ -46,7 +64,7 @@ const projetos = [
   },
 
   {
-    id: 6,
+    id: 8,
     title: 'Projeto Blog API',
     describe: 'Foi desenvolvido o Back-end de um blog em que é possível criar, visualizar, deletar e atualizar posts, a API foi feita com a arquitetura MSC (model-service-controller)!.',
     link: 'https://github.com/DimyLeo/Projeto-Blog-API',
@@ -55,21 +73,12 @@ const projetos = [
   },
 
   {
-    id: 7,
+    id: 9,
     title: 'Projeto Store Manager',
     describe: 'Foi desenvolvido o Back-end de um gerenciamento de vendas no formato dropshipping em que é possível criar, deletar e atualizar produtos e vendas.',
     link: 'https://github.com/DimyLeo/Projeto-Store-Manager-Back-end',
     img: 'https://images2.imgbox.com/50/bf/DQ2jYDKq_o.png',
     github: 'https://github.com/DimyLeo/Projeto-Store-Manager-Back-end'
-  },
-
-  {
-    id: 8,
-    title: 'Teste Cashforce',
-    describe: 'Foi desenvolvido uma aplicação FullStack para um teste técnico na empresa CashForce onde foi solicitado a construção dessa pagina de notas fiscais.',
-    link: 'https://cashforce-teste.netlify.app/#/',
-    img: 'https://images2.imgbox.com/4d/34/URKYn88t_o.png',
-    github: 'https://github.com/DimyLeo/Teste-Cashforce'
   }
 
 ]
