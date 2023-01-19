@@ -57,10 +57,19 @@ const projetos = [
   {
     id: 7,
     title: 'Projeto Store Manager',
-    describe: 'Foi desenvolvido o Back-end de um sistema de gerenciamento de vendas no formato dropshipping de em que é possível criar, visualizar, deletar e atualizar produtos e vendas.',
+    describe: 'Foi desenvolvido o Back-end de um gerenciamento de vendas no formato dropshipping em que é possível criar, deletar e atualizar produtos e vendas.',
     link: 'https://github.com/DimyLeo/Projeto-Store-Manager-Back-end',
     img: 'https://images2.imgbox.com/50/bf/DQ2jYDKq_o.png',
     github: 'https://github.com/DimyLeo/Projeto-Store-Manager-Back-end'
+  },
+
+  {
+    id: 8,
+    title: 'Teste Cashforce',
+    describe: 'Foi desenvolvido uma aplicação FullStack para um teste técnico na empresa CashForce onde foi solicitado a construção dessa pagina de notas fiscais.',
+    link: 'https://cashforce-teste.netlify.app/#/',
+    img: 'https://images2.imgbox.com/4d/34/URKYn88t_o.png',
+    github: 'https://github.com/DimyLeo/Teste-Cashforce'
   }
 
 ]
