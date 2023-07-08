@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Meu-Portfolio/static/css/main.429fc65a.css",
+    "main.js": "/Meu-Portfolio/static/js/main.f0b49736.js",
+    "static/media/Transition-sound.mp3": "/Meu-Portfolio/static/media/Transition-sound.681829018519cd0c5a86.mp3",
+    "index.html": "/Meu-Portfolio/index.html",
+    "main.429fc65a.css.map": "/Meu-Portfolio/static/css/main.429fc65a.css.map",
+    "main.f0b49736.js.map": "/Meu-Portfolio/static/js/main.f0b49736.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.429fc65a.css",
+    "static/js/main.f0b49736.js"
+  ]
+}
