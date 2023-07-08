@@ -13,7 +13,6 @@ function Contato() {
 
   return (
     <div className="div-contato" id="contato">
-      <img className="right-raio" src="https://images2.imgbox.com/e0/0f/fV1dK5s9_o.png" alt="right-raio" />
       <Fade top>
         <div className="head-contato">
           <h1>Contatos</h1>
@@ -49,7 +48,6 @@ function Contato() {
           </div>
         </form>
       </Fade>
-      <img className="left-raio" src="https://images2.imgbox.com/ab/ab/lweyN9zP_o.png" alt="left-raio" />
     </div>
   )
 }

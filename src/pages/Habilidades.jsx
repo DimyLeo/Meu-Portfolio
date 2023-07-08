@@ -11,7 +11,6 @@ function Habilidades() {
     return(
       <div className='body-habili'>
         <div className="div-habilidades">
-        <img className="right-raio" src="https://images2.imgbox.com/e0/0f/fV1dK5s9_o.png" alt="right-raio" />
         <Fade top>
           <div className="div-text-habilidades">
             <h1>Habilidades</h1>
@@ -32,7 +31,6 @@ function Habilidades() {
           )
         })}
 
-          <img className="left-raio" src="https://images2.imgbox.com/ab/ab/lweyN9zP_o.png" alt="left-raio" />
         </div>
         <button onClick={handleClick} className='div-bottom-top-img back-top-h'>
           <img className='img-bottom-top' src='https://images2.imgbox.com/1b/05/RArfC3w5_o.png' alt='bottom-img' />

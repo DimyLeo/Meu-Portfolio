@@ -11,7 +11,6 @@ function Projetos() {
 
     return(
       <div className="div-projetos">
-        <img className="right-raio" src="https://images2.imgbox.com/e0/0f/fV1dK5s9_o.png" alt="right-raio" />
 
           <Fade top>
             <div className="head-projetos">
@@ -42,7 +41,6 @@ function Projetos() {
             <img className='img-bottom-top' src='https://images2.imgbox.com/1b/05/RArfC3w5_o.png' alt='bottom-img' />
             <h1>BACK TOP</h1>
           </button>
-        <img className="left-raio-projetos" src="https://images2.imgbox.com/ab/ab/lweyN9zP_o.png" alt="left-raio" />
       </div>
     )
 }

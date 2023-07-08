@@ -91,17 +91,3 @@
   width: 30px;
   height: 30px;
 }
-
-.right-raio {
-  position: absolute;
-  width: 60px;
-  right: 0;
-  top: 15%;
-}
-
-.left-raio {
-  position: absolute;
-  width: 60px;
-  left: 0;
-  bottom: 0%;
-}
