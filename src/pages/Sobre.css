@@ -1,0 +1,93 @@
+.sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#cartoon {
+  max-width: 600px;
+  margin-right: 10px;
+}
+
+#cartoon:hover {
+  transform: rotateY(360deg);
+  transition: 900ms;
+}
+
+.text-sobre {
+  width: 400px;
+  margin-left: 10px;
+}
+
+.text-sobre h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.text-sobre p {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.name-sobre {
+  display: flex;
+}
+
+.name-sobre h1 {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.smile-sobre {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 220px;
+  width: 150px;
+  height: 120px;
+}
+
+.div-bottom-top-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  color: var(--yellow);
+  font-size: 20px;
+}
+
+.img-bottom-top {
+  margin-top: 15px;
+  width: 70px;
+}
+
+.div-icons-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-copy {
+  background-color: var(--grey-light);
+  color: var(--white);
+  border: none;
+  padding: 15px 80px;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.button-copy:hover {
+  background-color: var(--yellow);
+  color: var(--grey-light);
+  transition: 400ms;
+  cursor: pointer;
+}
+
+.icons-react {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}

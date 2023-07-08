@@ -1,0 +1,157 @@
+.div-projetos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.head-projetos {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.head-projetos h1 {
+  font-weight: 900;
+}
+
+.head-projetos p {
+  font-weight: 200;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px 30px;
+}
+
+.details-projeto {
+  background-color: var(--grey-strong);
+  color: var(--white);
+  box-shadow: -5px 10px 10px rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: left;
+  padding: 20px;
+  max-width: 400px;
+  min-width: 250px;
+  min-height: 400px;
+  max-height: 600px;
+}
+
+.details-projeto h2 {
+  font-weight: 700;
+  font-size: 1.7em;
+  margin-top: 10px;
+}
+
+.details-projeto p {
+  font-weight: 200;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.link-site {
+  color: var(--white);
+  position: absolute;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 200;
+  background-color: rgba(44, 44, 44, 0.7);
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+  width: 360px;
+  padding-top: 82px;
+  padding-bottom: 82px;
+  opacity: 0;
+}
+
+.link-site:hover {
+  color: var(--white);
+  transition: 400ms;
+  opacity: 1;
+}
+
+.github-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 200;
+  color: var(--white);
+  background-color: var(--grey-light);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 360px;
+  min-width: 250px;
+  margin: 10px auto;
+}
+
+.github-link:hover {
+  background-color: var(--yellow);
+  color: var(--grey-light);
+  transition: 400ms;
+}
+
+.github-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.img-projetos {
+  width: 360px;
+  border-radius: 10px;
+}
+
+.back-top {
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.back-top h1 {
+  width: 200px;
+  font-size: 35px;
+  font-weight: 900;
+  text-align: center;
+}
+
+@media only screen and (max-width: 425px) {
+  .details-projeto {
+    width: 340px;
+  }
+
+  .img-projetos {
+    width: 300px;
+    text-align: center;
+  }
+
+  .link-site {
+    width: 300px;
+    padding-top: 66px;
+    padding-bottom: 66px;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+
+  .details-projeto {
+    width: 290px;
+  }
+
+  .img-projetos {
+    width: 250px;
+    text-align: center;
+  }
+
+  .link-site {
+    width: 250px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
