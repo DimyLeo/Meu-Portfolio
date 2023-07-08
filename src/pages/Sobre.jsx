@@ -6,7 +6,6 @@ function Sobre() {
 
     return(
       <div className="sobre" id='sobre-min'>
-        <img className="right-raio" src="https://images2.imgbox.com/e0/0f/fV1dK5s9_o.png" alt="right-raio" />
         <Fade left>
           <img id="cartoon" src="https://images2.imgbox.com/b7/ca/BNppymAZ_o.png" alt="Cartoon Meu"/>
         </Fade>
@@ -31,7 +30,6 @@ function Sobre() {
         </div>
         </Fade>
 
-        <img className="left-raio" src="https://images2.imgbox.com/ab/ab/lweyN9zP_o.png" alt="left-raio" />
       </div>
     )
 }
